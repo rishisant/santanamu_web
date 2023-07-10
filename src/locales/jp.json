@@ -1,0 +1,111 @@
+{
+    "header_main": "サンタナム 理志",
+    "header_sub": "謎めいた男",
+
+    "home_desc": "ホーム",
+
+    "change_language": "言語を変更",
+
+    "intro_desc": "印象的な紹介",
+    "intro_par1": "こんにちは、皆さん。僕のデジタル空間へようこそ。本来ならば直接お会いしたいところですが、今はこの仮想空間での交流でも悪くはないですよね。全てをここだけで把握するのは難しいかもしれませんが、僕のことをある程度理解していただけるでしょう。僕の世界、作品、そして様々な瞬間をこの画面越しに覗いてみてください。全ての物語がここにあるわけではありませんが、それを知りたいと思っているのかもしれません。",
+    "intro_par2": "さて、自己紹介しましょう。僕の名前は理志（リシ）です。日本語を勉強し始めたときの友達がくれた漢字です。読書やライティング、創作活動、フィジカルアクティビティへの情熱を持っています。背が高く品があると自負している男ですが、生活の細部についてよく考え、時間を使っています。",
+    "intro_par3": "なぜこんな謎めいた自己紹介をするのでしょうか。それは皆さんを刺激し、考えさせ、それが面白いからです。全てが詳細に明かされない方がワクワクしますよね？残りは皆さんの想像力にお任せします。",
+    "intro_par4": "最後に、ここまで来てくれてありがとうございます。探索を楽しんでください。そして、瞬間は一瞬ですので、見逃さないようにしましょう。シンプルでありながらエレガントさを忘れずに、そして常にクラスを保ちましょう。",
+    "intro_par5": "- 理志",
+
+    "expr_edu_title": "教育",
+
+    "expr_desc": "プロフェッショナルな経験",
+    "expr_title_odoo": "Odoo",
+    "expr_position_odoo": "Software Development Intern",
+    "expr_date_odoo": "6/2023 - 8/2023",
+    "expr_point1_odoo": "Python, JavaScript, Reactフレームワーク, SQLを使用し、Odooフレームワークにカスタム機能を開発、実装し、アプリケーションの機能を強化しました。",
+    "expr_point2_odoo": "クライアントのリクエストに基づいて既存のアプリケーションを変更しました。これにはビュー、モデル構造、その他のコンポーネントへの変更が含まれました。",
+    "expr_point3_odoo": "Odooの構造内でカスタムアプリケーションを実装するプロジェクトに貢献しました。",
+    "expr_point4_odoo": "デバッグとトラブルシューティングのタスクを行い、アプリケーションのパフォーマンスとユーザーエクスペリエンスを改善しました。",
+    "expr_point5_odoo": "クロス機能チームとの協力を行い、クライアントに焦点を当てたソリューションを提供しました。",
+
+    "expr_title_idt": "iD Tech Camps",
+    "expr_position_idt": "Computer Science Instructor",
+    "expr_date_idt": "3/2023 - 6/2023",
+    "expr_point1_idt": "C++, JavaScript, Pythonのパーソナライズされたレッスンを開発し、提供しました。これにはデータ構造とアルゴリズムなどの上級トピックを学生に紹介しました。",
+    "expr_point2_idt": "10-15歳の生徒を教育・交流し、刺激的な学習環境を提供しました。",
+    "expr_point3_idt": "プライベートチュータリングの機会をもたらす学生参加の成功を実証しました。これは効果的な教育とパーソナライズされた指導に対する僕の取り組みを強調しました。",
+
+    "expr_title_headatt": "Texas A&M Rec Sports",
+    "expr_position_headatt": "Head Attendant",
+    "expr_date_headatt": "1/2022 - 9/2022",
+    "expr_point1_headatt": "多客流の学生レクリエーションセンターのシフトを管理し、最大600人の顧客を持つ施設を監督しました。",
+    "expr_point2_headatt": "施設のスムーズな運営を保証するための必要な書類の管理およびアテンダントチームへの作業割り当てを行いました。",
+    "expr_point3_headatt": "様々なエクササイズの正確な実行を示すことにより、学生やアスリートが身体的に最大のポテンシャルを達成するのを助けました。",
+    "expr_point4_headatt": "サブオーディネートのチームを管理するリーダーシップスキルを示し、効率的な操作を維持するための責任を効果的に委任しました。",
+    "expr_point5_headatt": "マネジメントスキルを強化し、最善の実践を吸収し、効果的なチームダイナミクスとリーダーシップ戦略についての幅広い理解を養うために、さまざまなリーダーシップカンファレンスとイベントに参加しました。",
+
+    "expr_title_att": "Texas A&M Rec Sports",
+    "expr_position_att": "Attendant",
+    "expr_date_att": "8/2021 - 12/2021",
+    "expr_point1_att": "適切なエクササイズ技術をデモンストレーションすることや様々なスポーツとワークアウトについての専門知識を共有することで、学生および学生アスリートが身体的なポテンシャルを最大化するのを支援しました。",
+    "expr_point2_att": "設備を定期的に消毒することや清潔なトレーニング環境を保つことにより、施設の衛生と清潔さを維持しました。",
+    "expr_point3_att": "疑問に答えたり、ルールと規制を施行したりして、安全で尊重されるワークアウトカルチャーを維持しました。","expr_point4_att": "職業的かつ迅速な方法で学生の要求や問い合わせに対応することで、質の高いカスタマーサービスを提供しました。",
+
+    "expr_title_pm": "Texas A&M College of Engineering",
+    "expr_position_pm": "Peer Mentor",
+    "expr_date_pm": "8/2021 - 12/2021",
+    "expr_point1_pm": "Texas A&Mの新入生エンジニアリング学生向けにメンターを務め、プログラムへのスムーズな移行をサポートしました。",
+    "expr_point2_pm": "教員やスタッフと協力して、エンジニアリングプログラムでの学生の成功を向上させるための戦略を立案し、実施しました。",
+    "expr_point3_pm": "生徒との1対1のミーティングを行い、彼らの個別のニーズ、目標、障害をより良く理解し、Texas A&Mでの学術生活の計画と実現を効果的に支援しました。",
+
+    "expr_title_mt": "Mathnasium",
+    "expr_position_mt": "Mathematics Tutor",
+    "expr_date_mt": "6/2019 - 12/2019",
+    "expr_point1_mt": "1年生から12年生までの生徒に数学を教え、理解とパフォーマンスを向上させるための個別化された教授戦略を用いました。",
+    "expr_point2_mt": "教室を清掃・整理することで秩序ある学習環境を維持しました。",
+    "expr_point3_mt": "学習センターの効率的な運営を補助するために、ファイリングや整理などの行政業務に参加しました。",
+
+    "expr_education": "Texas A&M University",
+    "expr_edu_degree": "コンピューターサイエンス学士",
+    "expr_date_edu": "8/2020 - 12/2024",
+    "expr_point1_edu": "男子クラブバスケットボール主将",
+    "expr_point2_edu": "TAMUHackやHackTXなど複数のハッカソンに参加。",
+    "expr_point3_edu": "工学部ピアメンター",
+    
+
+    "projects_desc": "プロジェクト",
+    "projects_desc_label": "プロジェクトカードをクリックして、プロジェクトにリダイレクトします！",
+
+    "projects_title_kanmasu": "Kanmasu",
+    "projects_desc_kanmasu": "ReactとWanakanaやCryptoJSなどのパケージを使用して構築したフラッシュカード記憶ツール。",
+    "projects_desc_feature1": "カード作成/プレビューフィーチャー",
+    "projects_desc_feature2": "カスタムひらがなからローマ字へのアルゴリズム",
+    "projects_desc_feature3": "デッキの保存とロードに使用される暗号化された .kms (kanmasu) ストレージファイル",
+    "projects_desc_feature4": "カードをランダムに繰り返す練習モード",
+
+    "projects_title_hol": "Higher or Lower",
+    "projects_desc_hol": "Higher or Lowerは、僕が初めてフレッシュマンの年にPythonで作成したゲームです。しかし、最近JavaScriptでゲームをリマスターすることにしました。",
+    "projects_desc_feature1_hol": "対戦相手のAIシステム",
+    "projects_desc_feature2_hol": "実績とカードカスタマイズシステム",
+    "projects_desc_feature3_hol": "レベルベースのスケーリングとゲームロジック",
+    "projects_desc_feature4_hol": "モバイルフレンドリーデザイン",
+
+    "projects_title_popsim": "Population Simulation - A Study on Gene Variance",
+    "projects_desc_popsim": "この実験の目的は、サンプル集団を作成し、集団がどのように変動するか、また集団内の変数を追跡することでした。目標は、集団内の人気のある特性の進化をシミュレートし、より生き残るためにどの組み合わせが有効かを追跡することでした。",
+    "projects_desc_feature1_popsim": "カスタム生物 + 行動のプログラム化",
+    "projects_desc_feature2_popsim": "Pythonで作られたカスタムシミュレーションエンジン",
+    "projects_desc_feature3_popsim": "Matplotlibを使用したデータ可視化",
+    "projects_desc_feature4_popsim": "プレゼンテーションとライトアップ",
+
+    "projects_title_wchain": "WordChain",
+    "projects_desc_wchain": "WordChainは、単語をチェーンでつなげるゲームで、ベースのJavaScriptで作られています。",
+    "projects_desc_feature1_wchain": "グラフィクス + カスタムフォント",
+    "projects_desc_feature2_wchain": "カスタムTrieのようなデータ構造",
+    "projects_desc_feature3_wchain": "モバイルフレンドリーデザイン",
+
+    "projects_title_ndb": "NamuDB",
+    "projects_desc_ndb": "NamuDBは、データベースにデータを保存し、取得するプログラムで、C++で作られています。",
+    "projects_desc_feature1_ndb": "カスタムデータベースUIとメークファイル",
+    "projects_desc_feature2_ndb": "データストレージのための暗号化/復号化アルゴリズム",
+    "projects_desc_feature3_ndb": "オブジェクト指向設計",
+
+    "pictures_desc": "写真",
+    "pictures_desc_label": "ストーカーに捧げる…"
+}

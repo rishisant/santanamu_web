@@ -1,0 +1,111 @@
+{
+    "header_main": "R. Santhanam",
+    "header_sub": "A Man of Many Hats",
+
+    "home_desc": "Home Page",
+
+    "change_language": "Change Language",
+
+    "intro_desc": "A Pleasant Introduction",
+    "intro_par1": "Welcome, dear visitor, to my digital abode. Though it would be more desirable to engage in person, this virtual platform should suffice. Full transparency, you might not get a full impression of me here, but it gives you an indication. This place will give you glimpses into my world, my creations, and my moments, all sealed behind a screen. You won't find the entire story, but perhaps you're still deciding if you want to. Isn't that why you're here?",
+    "intro_par2": "Allow me to properly introduce myself. I am Rishi. My interests are plentiful, but my passions line up squarely with reading, writing, and immersing myself in creation, alongside physical activities. I'm a tall character, some might say attractive, and I would modestly say tasteful, who spends much of my time thinking about the finer points of life.",
+    "intro_par3": "Why an introduction shrouded in mystery? It is simply to keep you on your toes, to make you think, and mostly for the sheer fun of it. Isn't there something thrilling about not having every detail laid out? I'll keep the rest up to your imagination.",
+    "intro_par4": "I'm glad you found your way here. Enjoy your time exploring. Each moment is fleeting, so make sure you don't miss it. With a toss of elegance, always remain, quite simply, classy.",
+    "intro_par5": "- R. Santhanam",
+
+    "expr_edu_title": "Education",
+
+    "expr_desc": "Professional Experiences",
+    "expr_title_odoo": "Odoo",
+    "expr_position_odoo": "Software Development Intern",
+    "expr_date_odoo": "6/2023 - 8/2023",
+    "expr_point1_odoo": "Developed and implemented custom features in the Odoo framework using Python, JavaScript, React frameworks, and SQL to enhance application functionality.",
+    "expr_point2_odoo": "Modified pre-existing applications based on client requests, which involved changes to views, model structures, and various other components.",
+    "expr_point3_odoo": "Contributed to projects focused on implementing custom applications within the Odoo structure.",
+    "expr_point4_odoo": "Performed debugging and troubleshooting tasks to improve application performance and user experience.",
+    "expr_point5_odoo": "Collaborated well with cross-functional teams to deliver client-focused solutions.",
+
+    "expr_title_idt": "iD Tech Camps",
+    "expr_position_idt": "Computer Science Instructor",
+    "expr_date_idt": "3/2023 - 6/2023",
+    "expr_point1_idt": "Developed and delivered personalized lessons in C++, JavaScript, and Python, introducing students to advanced topics such as Data Structures and Algorithms.",
+    "expr_point2_idt": "Educated and engaged with students aged 10-15, promoting a stimulating learning environment.",
+    "expr_point3_idt": "Demonstrated successful student engagement leading to private tutoring opportunities, underscoring my commitment to effective teaching and personalized instruction.",
+
+    "expr_title_headatt": "Texas A&M Rec Sports",
+    "expr_position_headatt": "Head Attendant",
+    "expr_date_headatt": "1/2022 - 9/2022",
+    "expr_point1_headatt": "Managed shifts at high volume student recreation center, overseeing facilities with up to 600 patrons.",
+    "expr_point2_headatt": "Administered required paperwork and task allocation to a team of attendants, ensuring the smooth operation of the facility.",
+    "expr_point3_headatt": "Aided students and athletes to achieve their physical potential by demonstrating the accurate performance of various exercises.",
+    "expr_point4_headatt": "Showed leadership skills in managing a team of subordinates, delegating responsibilities effectively to sustain efficient operations.",
+    "expr_point5_headatt": "Attended various leadership conferences and events to enhance my managerial skills, absorb best practices, and cultivate a broader understanding of effective team dynamics and leadership strategies.",
+
+    "expr_title_att": "Texas A&M Rec Sports",
+    "expr_position_att": "Attendant",
+    "expr_date_att": "8/2021 - 12/2021",
+    "expr_point1_att": "Assisted students and student-athletes in maximizing their physical potential by demonstrating proper exercise techniques and sharing expert knowledge on various sports and workouts.",
+    "expr_point2_att": "Maintained hygiene and cleanliness of the facility by regularly disinfecting equipment and ensuring a clean training environment.",
+    "expr_point3_att": "Provided support to students by answering their queries, promoting a safe and respectful workout culture by enforcing rules and regulations.",
+    "expr_point4_att": "Delivered quality customer service by responding to students' needs and inquiries in a professional and timely manner.",
+
+    "expr_title_pm": "Texas A&M College of Engineering",
+    "expr_position_pm": "Peer Mentor",
+    "expr_date_pm": "8/2021 - 12/2021",
+    "expr_point1_pm": "Mentored first-year Engineering students at Texas A&M, providing guidance and support to ensure smooth transition into the program.",
+    "expr_point2_pm": "Worked collaboratively with faculty and staff to devise and implement strategies aimed at enhancing student success in the Engineering program.",
+    "expr_point3_pm": "Conducted one-on-one meetings with students to better understand their individual needs, goals, and obstacles, helping them to effectively plan and realize their academic journey at A&M.",
+
+    "expr_title_mt": "Mathnasium",
+    "expr_position_mt": "Mathematics Tutor",
+    "expr_date_mt": "6/2019 - 12/2019",
+    "expr_point1_mt": "Tutored students in grades 1-12 in Mathematics, utilizing individualized teaching strategies to increase understanding and performance.",
+    "expr_point2_mt": "Assisted in maintaining an orderly learning environment by cleaning and organizing the classroom.",
+    "expr_point3_mt": "Participated in administrative tasks such as filing and organization, aiding in efficient operation of the learning center.",
+
+    "expr_education": "Texas A&M University",
+    "expr_edu_degree": "BS Computer Science",
+    "expr_date_edu": "8/2020 - 12/2024",
+    "expr_point1_edu": "Men's Club Basketball Captain",
+    "expr_point2_edu": "Participated in multiple hackathons, including TAMUHack and HackTX",
+    "expr_point3_edu": "Peer Mentor for the College of Engineering",
+    
+    "projects_desc": "Projects",
+    "projects_desc_label": "Click on the project cards to be redirected to the project!",
+
+    "projects_title_kanmasu": "Kanmasu",
+    "projects_desc_kanmasu": "A flashcard memorization tool built with React and packages such as Wanakana and CryptoJS.",
+    "projects_desc_feature1": "Card creation/preview feature",
+    "projects_desc_feature2": "Custom hiragana to romaji algorithm",
+    "projects_desc_feature3": "Encrypted .kms (kanmasu) storage files, used for saving and loading decks",
+    "projects_desc_feature4": "Practice mode to randomly cycle through cards",
+
+    "projects_title_hol": "Higher or Lower",
+    "projects_desc_hol": "Higher or Lower was a game I originally created freshman year in Python; however, recently I decided to remaster the game in JavaScript.",
+    "projects_desc_feature1_hol": "Opponent AI system",
+    "projects_desc_feature2_hol": "Achievements and card-customization system",
+    "projects_desc_feature3_hol": "Level-based scaling and game logic",
+    "projects_desc_feature4_hol": "Mobile-friendly design",
+
+    "projects_title_popsim": "Population Simulation - A Study on Gene Variance",
+    "projects_desc_popsim": "The purpose of this experiment was to create a sample population and track how the population fluctuated, as well as variables within the population. My goal was to simulate the evolution of popular traits within a population and track what combination of these traits allowed for the population to thrive.",
+    "projects_desc_feature1_popsim": "Programmed custom organism + behaviors",
+    "projects_desc_feature2_popsim": "Custom simulation engine made in Python",
+    "projects_desc_feature3_popsim": "Data visualization using Matplotlib",
+    "projects_desc_feature4_popsim": "Presentation and write-up",
+
+    "projects_title_wchain": "WordChain",
+    "projects_desc_wchain": "WordChain is a game about chaining words together, made in base JavaScript.",
+    "projects_desc_feature1_wchain": "Graphics + custom font",
+    "projects_desc_feature2_wchain": "Custom trie-like data structure",
+    "projects_desc_feature3_wchain": "Mobile-friendly design",
+
+    "projects_title_ndb": "NamuDB",
+    "projects_desc_ndb": "NamuDB is a program that allows you to store and retrieve data from a database, made in C++.",
+    "projects_desc_feature1_ndb": "Custom database UI and makefiles",
+    "projects_desc_feature2_ndb": "Encryption/decryption algorithms for data storage",
+    "projects_desc_feature3_ndb": "Object-oriented design",
+
+    "pictures_desc": "Pictures",
+    "pictures_desc_label": "For all you stalkers..."
+}

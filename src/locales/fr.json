@@ -1,0 +1,111 @@
+{
+    "header_main": "R. Santhanam",
+    "header_sub": "Un Homme qui Touche à Tout",
+
+    "home_desc": "Accueil",
+
+    "change_language": "Changer de langue",
+
+    "intro_desc": "Une Introduction Agréable",
+    "intro_par1": "Bienvenue, cher visiteur, dans mon abode numérique. Bien qu'une rencontre en personne soit plus souhaitable, cette plateforme virtuelle devrait suffire. En toute transparence, vous n'obtiendrez peut-être pas une impression complète de moi ici, mais cela vous donne une indication. Ce lieu vous donnera un aperçu de mon monde, de mes créations et de mes moments, le tout caché derrière un écran. Vous n'y trouverez pas toute l'histoire, mais peut-être que vous décidez encore si vous le souhaitez. N'est-ce pas pour cela que vous êtes ici?",
+    "intro_par2": "Permettez-moi de me présenter correctement. Je suis Rishi. Mes intérêts sont nombreux, mais mes passions coïncident directement avec la lecture, l'écriture, et l'immersion dans la création, aux côtés des activités physiques. Je suis un personnage grand, certains diraient attrayant, et je dirais modestement de bon goût, qui passe beaucoup de mon temps à réfléchir sur les subtilités de la vie.",
+    "intro_par3": "Pourquoi une introduction entourée de mystère ? C'est simplement pour vous tenir en haleine, pour vous faire réfléchir, et surtout pour le pur plaisir de le faire. N'y a-t-il pas quelque chose d'excitant à ne pas avoir tous les détails déjà établis? Je laisserai le reste à votre imagination.",
+    "intro_par4": "Je suis content que vous ayez trouvé le chemin ici. Profitez de votre temps d'exploration. Chaque moment est éphémère, alors assurez-vous de ne pas manquer le coche. Avec une pointe d'élégance, restez toujours, tout simplement, chic.",
+    "intro_par5": "- R. Santhanam",
+
+    "expr_edu_title": "Éducation",
+
+    "expr_desc": "Expériences professionnelles",
+    "expr_title_odoo": "Odoo",
+    "expr_position_odoo": "Stagiaire en développement de logiciels",
+    "expr_date_odoo": "6/2023 - 8/2023",
+    "expr_point1_odoo": "Développé et mis en œuvre des fonctionnalités personnalisées dans le cadre d'Odoo en utilisant Python, JavaScript, les frameworks React et SQL pour améliorer les fonctionnalités de l'application.",
+    "expr_point2_odoo": "Modifié des applications préexistantes en fonction des demandes des clients, ce qui a impliqué des modifications des vues, des structures de modèles et divers autres composants.",
+    "expr_point3_odoo": "Contribué à des projets axés sur la mise en œuvre d'applications personnalisées dans la structure Odoo.",
+    "expr_point4_odoo": "Effectué des tâches de débogage et de résolution de problèmes pour améliorer les performances de l'application et l'expérience utilisateur.",
+    "expr_point5_odoo": "Collaboré efficacement avec des équipes interfonctionnelles pour fournir des solutions centrées sur le client.",
+
+    "expr_title_idt": "iD Tech Camps",
+    "expr_position_idt": "Instructeur en informatique",
+    "expr_date_idt": "3/2023 - 6/2023",
+    "expr_point1_idt": "Développé et dispensé des leçons personnalisées en C++, JavaScript et Python, en présentant aux étudiants des sujets avancés tels que les structures de données et les algorithmes.",
+    "expr_point2_idt": "Éduqué et engagé des étudiants âgés de 10 à 15 ans, en promouvant un environnement d'apprentissage stimulant.",
+    "expr_point3_idt": "Démontré un engagement réussi des élèves menant à des opportunités de tutorat privé, soulignant mon engagement envers un enseignement efficace et une instruction personnalisée.",
+
+    "expr_title_headatt": "Texas A&M Rec Sports",
+    "expr_position_headatt": "Chef d'Équipe",
+    "expr_date_headatt": "1/2022 - 9/2022",
+    "expr_point1_headatt": "Géré des shifts dans un centre de loisirs étudiant à haut volume, supervisant des installations avec jusqu'à 600 clients.",
+    "expr_point2_headatt": "Administré les tâches administratives nécessaires et la répartition des tâches à une équipe de responsables, garantissant le bon fonctionnement de l'installation.",
+    "expr_point3_headatt": "Aidé les étudiants et les athlètes à atteindre leur potentiel physique en démontrant la performance précise de divers exercices.",
+    "expr_point4_headatt": "Demontré des compétences en leadership en gérant une équipe de subordonnés, en déléguant efficacement les responsabilités pour maintenir des opérations efficaces.",
+    "expr_point5_headatt": "Assisté à diverses conférences et événements de leadership pour améliorer mes compétences managériales, absorber les meilleures pratiques et cultiver une compréhension plus large des dynamiques d'équipe efficaces et des stratégies de leadership.",
+
+    "expr_title_att": "Texas A&M Rec Sports",
+    "expr_position_att": "Responsable",
+    "expr_date_att": "8/2021 - 12/2021",
+    "expr_point1_att": "Aidé les étudiants et les athlètes étudiants à maximiser leur potentiel physique en démontrant les techniques d'exercice appropriées et en partageant des connaissances expertes sur divers sports et séances d'entraînement.",
+    "expr_point2_att": "Maintenu l'hygiène et la propreté de l'installation en désinfectant régulièrement l'équipement et en assurant un environnement d'entraînement propre.",
+    "expr_point3_att": "Fourni un soutien aux étudiants en répondant à leurs questions, en promouvant une culture d'entraînement sûre et respectueuse en appliquant des règles et des régulations.",
+    "expr_point4_att": "Fourni un service à la clientèle de qualité en répondant aux besoins et aux demandes des étudiants de manière professionnelle et opportune.",
+
+    "expr_title_pm": "Texas A&M College of Engineering",
+    "expr_position_pm": "Mentor",
+    "expr_date_pm": "8/2021 - 12/2021",
+    "expr_point1_pm": "Mentoré des étudiants en première année d'ingénierie à Texas A&M, fournissant des conseils et du soutien pour assurer une transition en douceur dans le programme.",
+    "expr_point2_pm": "Travaillé en collaboration avec le corps professoral et le personnel pour élaborer et mettre en œuvre des stratégies visant à améliorer la réussite des étudiants dans le programme d'ingénierie.",
+    "expr_point3_pm": "Conduit des réunions individuelles avec les étudiants pour mieux comprendre leurs besoins, leurs objectifs et leurs obstacles, les aidant à planifier efficacement et à réaliser leur parcours académique à A&M.",
+
+    "expr_title_mt": "Mathnasium",
+    "expr_position_mt": "Tuteur en Mathématiques",
+    "expr_date_mt": "6/2019 - 12/2019",
+    "expr_point1_mt": "Tutoré des étudiants de la première à la douzième année en mathématiques, en utilisant des stratégies d'enseignement individualisées pour augmenter la compréhension et les performances.",
+    "expr_point2_mt": "Aidé à maintenir un environnement d'apprentissage ordonné en nettoyant et en organisant la salle de classe.",
+    "expr_point3_mt": "Participé à des tâches administratives telles que le classement et l'organisation, aidant au fonctionnement efficace du centre d'apprentissage.",
+
+    "expr_education": "Université Texas A&M",
+    "expr_edu_degree": "Licence en informatique",
+    "expr_date_edu": "8/2020 - 12/2024",
+    "expr_point1_edu": "Capitaine du club de basketball masculin",
+    "expr_point2_edu": "Participé à plusieurs hackathons, dont TAMUHack et HackTX",
+    "expr_point3_edu": "Mentorat par les pairs pour le Collège d'ingénierie",
+    
+    "projects_desc": "Projets",
+    "projects_desc_label": "Cliquez sur les cartes de projet pour être redirigé vers le projet!",
+
+    "projects_title_kanmasu": "Kanmasu",
+    "projects_desc_kanmasu": "Un outil de mémorisation de flashcards construit avec React et des packages tels que Wanakana et CryptoJS.",
+    "projects_desc_feature1": "Caractéristique de création/prévisualisation de carte",
+    "projects_desc_feature2": "Algorithme personnalisé de conversion de l'hiragana en romaji",
+    "projects_desc_feature3": "Fichiers de stockage .kms (kanmasu) chiffrés, utilisés pour sauvegarder et charger des decks",
+    "projects_desc_feature4": "Mode de pratique pour parcourir aléatoirement les cartes",
+
+    "projects_title_hol": "Higher or Lower",
+    "projects_desc_hol": "Higher or Lower était un jeu que j'ai initialement créé en première année en Python; cependant, récemment, j'ai décidé de remasteriser le jeu en JavaScript.",
+    "projects_desc_feature1_hol": "Système d'IA pour l'adversaire",
+    "projects_desc_feature2_hol": "Système d'accomplissements et de personnalisation des cartes",
+    "projects_desc_feature3_hol": "Logique de jeu basée sur les niveaux et ajustement de la difficulté",
+    "projects_desc_feature4_hol": "Conception adaptée aux mobiles",
+
+    "projects_title_popsim": "Simulation de Population - Une Étude sur la Variance des Gènes",
+    "projects_desc_popsim": "Le but de cette expérience était de créer une population échantillon et de suivre comment la population fluctuait, ainsi que les variables à l'intérieur de la population. Mon objectif était de simuler l'évolution des traits populaires au sein d'une population et de suivre quelle combinaison de ces traits permettait à la population de prospérer.",
+    "projects_desc_feature1_popsim": "Création d'un organisme personnalisé + comportements",
+    "projects_desc_feature2_popsim": "Moteur de simulation personnalisé en Python",
+    "projects_desc_feature3_popsim": "Visualisation de données à l'aide de Matplotlib",
+    "projects_desc_feature4_popsim": "Présentation et rédaction",
+
+    "projects_title_wchain": "WordChain",
+    "projects_desc_wchain": "WordChain est un jeu sur la création de chaînes de mots, réalisé en JavaScript de base.",
+    "projects_desc_feature1_wchain": "Graphiques + police personnalisée",
+    "projects_desc_feature2_wchain": "Structure de données personnalisée similaire à un trie",
+    "projects_desc_feature3_wchain": "Conception adaptée aux mobiles",
+
+    "projects_title_ndb": "NamuDB",
+    "projects_desc_ndb": "NamuDB est un programme qui vous permet de stocker et de récupérer des données à partir d'une base de données, réalisée en C++.",
+    "projects_desc_feature1_ndb": "Interface utilisateur de base de données personnalisée et fichiers make",
+    "projects_desc_feature2_ndb": "Algorithmes de chiffrement/déchiffrement pour le stockage de données",
+    "projects_desc_feature3_ndb": "Conception orientée objet",
+
+    "pictures_desc": "Photos",
+    "pictures_desc_label": "Pour tous les curieux..."
+}
