@@ -14,7 +14,9 @@ import { faLanguage, faHouse, faBriefcase, faImage } from "@fortawesome/free-sol
 
 import { faPenToSquare, faClone, faMicroscope, faLink, faDatabase } from "@fortawesome/free-solid-svg-icons";
 
-import "./App.css"
+import "./App.css";
+
+import { Footer } from './Landing.js'
 
 // Initializing i18n for easy translation swapping.
 i18n
@@ -95,7 +97,7 @@ const Projects = () => {
                 </div>
 
                 <div className="block_magnify2" onClick={() => window.open("https://kanmasu.netlify.app/", "_blank")}>
-                    <div className="header_company">
+                    <div className="header_company2">
                         <FontAwesomeIcon icon={faPenToSquare} style={{ marginRight: '15px' }} />
                         {t("projects_title_kanmasu")}
                     </div>
@@ -111,7 +113,7 @@ const Projects = () => {
                 </div>
                 
                 <div className="block_magnify2" onClick={() => window.open("https://rishisant.github.io/higherorlower/", "_blank")}>
-                    <div className="header_company">
+                    <div className="header_company2">
                         <FontAwesomeIcon icon={faClone} style={{ marginRight: '15px' }} />
                         {t("projects_title_hol")}
                     </div>
@@ -127,7 +129,7 @@ const Projects = () => {
                 </div>
 
                 <div className="block_magnify2" onClick={() => window.open("./writeup.pdf", "_blank")}>
-                    <div className="header_company">
+                    <div className="header_company2">
                         <FontAwesomeIcon icon={faMicroscope} style={{ marginRight: '15px' }} />
                         {t("projects_title_popsim")}
                     </div>
@@ -143,7 +145,7 @@ const Projects = () => {
                 </div>  
 
                 <div className="block_magnify2" onClick={() => window.open("https://rishisant.github.io/wordchain/", "_blank")}>
-                    <div className="header_company">
+                    <div className="header_company2">
                         <FontAwesomeIcon icon={faLink} style={{ marginRight: '15px' }} />
                         {t("projects_title_wchain")}
                     </div>
@@ -158,7 +160,7 @@ const Projects = () => {
                 </div>
 
                 <div className="block_magnify2" onClick={() => window.open("https://github.com/rishisant/namudb", "_blank")}>
-                    <div className="header_company">
+                    <div className="header_company2">
                         <FontAwesomeIcon icon={faDatabase} style={{ marginRight: '15px' }} />
                         {t("projects_title_ndb")}
                     </div>
@@ -174,55 +176,10 @@ const Projects = () => {
 
             </div>
 
+            <Footer/>
+
         </>
     );
 }
 
 export default Projects;
-
-/*
-{
-
-    "expr_education": "Texas A&M University",
-    "expr_edu_degree": "BS Computer Science",
-    
-    "projects_desc": "Projects",
-    "projects_desc_label": "Click on the images to be redirected to the project links!",
-
-    "projects_title_kanmasu": "Kanmasu",
-    "projects_desc_kanmasu": "A flashcard memorization tool built with React and packages such as Wanakana and CryptoJS.",
-    "projects_desc_feature1": "Card creation/preview feature",
-    "projects_desc_feature2": "Custom hiragana to romaji algorithm",
-    "projects_desc_feature3": "Encrypted .kms (kanmasu) storage files, used for saving and loading decks",
-    "projects_desc_feature4": "Practice mode to randomly cycle through cards",
-
-    "projects_title_hol": "Higher or Lower",
-    "projects_desc_hol": "Higher or Lower was a game I originally created freshman year in Python; however, recently I decided to remaster the game in JavaScript.",
-    "projects_desc_feature1_hol": "Opponent AI system",
-    "projects_desc_feature2_hol": "Achievements and card-customization system",
-    "projects_desc_feature3_hol": "Level-based scaling and game logic",
-    "projects_desc_feature4_hol": "Mobile-friendly design",
-
-    "projects_title_popsim": "Population Simulation - A Study on Gene Variance",
-    "projects_desc_popsim": "The purpose of this experiment was to create a sample population and track how the population fluctuated, as well as variables within the population. My goal was to simulate the evolution of popular traits within a population and track what combination of these traits allowed for the population to thrive.",
-    "projects_desc_feature1_popsim": "Programmed custom organism + behaviors",
-    "projects_desc_feature2_popsim": "Custom simulation engine made in Python",
-    "projects_desc_feature3_popsim": "Data visualization using Matplotlib",
-    "projects_desc_feature4_popsim": "Presentation and write-up",
-
-    "projects_title_wchain": "WordChain",
-    "projects_desc_wchain": "WordChain is a game about chaining words together, made in base JavaScript.",
-    "projects_desc_feature1_wchain": "Graphics + custom font",
-    "projects_desc_feature2_wchain": "Custom trie-like data structure",
-    "projects_desc_feature3_wchain": "Mobile-friendly design",
-
-    "projects_title_ndb": "NamuDB",
-    "projects_desc_ndb": "NamuDB is a program that allows you to store and retrieve data from a database, made in C++.",
-    "projects_desc_feature1_ndb": "Custom database UI and makefiles",
-    "projects_desc_feature2_ndb": "Encryption/decryption algorithms for data storage",
-    "projects_desc_feature3_ndb": "Object-oriented design",
-
-    "pictures_desc": "Pictures",
-    "pictures_desc_label": "For all you stalkers..."
-}
-*/

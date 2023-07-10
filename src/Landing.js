@@ -12,7 +12,29 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage, faBriefcase, faDiagramProject, faImage } from "@fortawesome/free-solid-svg-icons";
 
+import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 import "./App.css"
+
+export const Footer = () => {
+    return (
+        <footer>
+                    <div className="socials">
+                        <a href="https://www.linkedin.com/in/santanamu" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} className="social_icon" />
+                        </a>
+                            
+                        <a href="https://github.com/rishisant" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub} className="social_icon" />
+                        </a>
+                            
+                        <a href="https://www.instagram.com/santanamuu" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faInstagram} className="social_icon" />
+                        </a>
+                    </div>
+            </footer>
+    );
+}
 
 // Initializing i18n for easy translation swapping.
 i18n
@@ -109,6 +131,8 @@ const Landing = () => {
                 </div>
 
             </div>
+
+            <Footer />
 
         </>
     );

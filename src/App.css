@@ -189,6 +189,32 @@ body {
   }
 }
 
+/* footer styles */
+footer {
+  margin-top: 2.5rem;
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e0e6e9;
+}
+
+.socials a {
+  color: #212529;
+  margin: 0 1.5rem; 
+  text-decoration: none; 
+}
+
+.social_icon { 
+  font-size: 1.5em;
+  transition: color 0.2s ease-in-out;
+}
+
+.socials a:hover .social_icon {
+  color: #007bff;
+}
+
 @media only screen and (max-width: 1368px) {
   body {
     padding: 2rem 10%;
@@ -316,3 +342,4 @@ body {
     font-size: 1rem;
   }
 }
+

@@ -14,7 +14,9 @@ import { faLanguage, faHouse, faBriefcase, faDiagramProject } from "@fortawesome
 
 import { faLeftLong, faRightLong } from "@fortawesome/free-solid-svg-icons";
 
-import "./App.css"
+import "./App.css";
+
+import { Footer } from './Landing.js'
 
 // Initializing i18n for easy translation swapping.
 i18n
@@ -49,7 +51,7 @@ const switchLanguage = () => {
 
 const Pictures = () => {
     const { t } = useTranslation();
-    const numImages = 13;
+    const numImages = 17;
 
     const [index, setIndex] = React.useState(0);  // initialize index to access array
 
@@ -118,6 +120,8 @@ const Pictures = () => {
                 </div>
 
             </div>
+
+            <Footer />
 
         </>
     );

@@ -14,7 +14,9 @@ import { faLanguage, faHouse, faDiagramProject, faImage } from "@fortawesome/fre
 
 import { faLaptopCode, faPersonChalkboard, faDumbbell, faCalculator, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
-import "./App.css"
+import "./App.css";
+
+import { Footer } from './Landing.js'
 
 // Initializing i18n for easy translation swapping.
 i18n
@@ -192,6 +194,8 @@ const Experience = () => {
 
 
             </div>
+
+            <Footer />
 
         </>
     );
