@@ -10,54 +10,73 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 body {
-  background-color: #f8f9fa;
+  background: #f8f9fa;
   color: #212529;
-  font-family: 'Courier Prime', 'DotGothic16', monospace;
-  font-size: 1.1rem;
+  font: .8rem 'Courier Prime', 'DotGothic16', monospace;
   margin: 0;
   padding: 3rem 20%;
 }
 
-.name {
-  font-size: 3rem;
+.name, .header_title {
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   color: #212529;
   text-align: center;
+  @media only screen and (max-width: 767px) {
+      font-size: 1.5rem; 
+  }
+}
+
+.navcontainer, .textcontainer {
+  padding: 2.5rem;
 }
 
 .navcontainer {
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 2px solid #e0e6e9
+}
+
+.navbuttons *, .langico button {
+  font-family: 'Courier Prime', 'DotGothic16', monospace;
+  transition: color 0.5s ease-in-out;
   display: flex;
-  justify-content: space-around;
-  padding: 2.5rem 0;
-  border-bottom: 2px solid #e0e6e9;
+  align-items: center;
 }
 
 .navbuttons {
-  display: flex;
   justify-content: space-between;
-  transition: color ease-in-out 0.5s;
   margin: 15px 0;
-  align-items: center;
-  font-family: 'Courier Prime', 'DotGothic16', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
+}
+
+.navbuttons a, .langico {
+  color: #212529;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s linear;
 }
 
 .navbuttons a {
-  color: #212529;
-  text-decoration: none;
-  padding: 15px 25px;
-  border-radius: 6px;
   transition: background-color 0.2s linear, color 0.2s linear;
-  display: flex;
-  align-items: center;
 }
 
-.navbuttons a:hover, .navbuttons:hover {
-  background-color: #007bff;
+.navbuttons a {
+  padding: 15px 25px;
+  &:hover, .navbuttons:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+
+.navbuttons:hover {
   color: #ffffff;
+  background-color: #007bff;
   cursor: pointer;
-  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
 }
 
 .signature {
@@ -69,61 +88,77 @@ body {
   padding-top: 1rem;
 }
 
+.signature img {
+  width: 50%;
+  height: auto;
+}
+
 .textcontainer {
-  background-color: #e9ecef;
+  background: #e9ecef;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 2.5rem;
   margin-bottom: 3rem;
   width: 80%;
   margin: 0 auto;
   border-radius: 0.5rem;
 }
 
-.header_title, .header_company, .header_date, 
-.header_desc, .header_desc2, .header_info, 
-.header_info_exp, .block_magnify, .block_magnify2 {
-  color: #212529;
+.header_title, .header_company, .header_date, .header_desc, .header_desc2, .header_info, .header_info_exp, .block_magnify, .block_magnify2 {
+  font-size: 1.1rem;
   line-height: 1.7;
-  font-size: 1.6rem;
   text-align: justify;
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
   padding: 1.5rem;
   border-radius: 25px;
-  font-family: 'Courier Prime', 'DotGothic16', sans-serif;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  color: #212529;
+}
+
+.header_company, .header_company2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.header_date {
+  font-weight: 700;
+  font-size: 1rem;
+  color:#626262;
+  padding: 0 1.25rem 0.25rem 1.25rem;
+  margin-bottom: .5rem;
 }
 
 .header_title {
-  font-size: 2.5rem;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-  color: #212529;
   text-align: center;
 }
 
-.block_magnify:hover {
+.block_magnify:hover, .block_magnify2:hover {
   background-color: #e9ecef;
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
   cursor: url('./res/magnify.ico'), auto;
 }
 
 .block_magnify2:hover {
-  background-color: #e9ecef;
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
   cursor: pointer;
 }
 
-.pictureContainer {
-  position: relative;
+.pictureContainer, .picture {
   max-width: 100%;
   height: auto; 
   margin: 0 auto;
   margin-top: 1.5rem;
+}
+
+.picture img {
+  max-width: 100%;  
+  height: auto;
+}
+
+.pictureContainer {
+  position: relative;
   padding: 0 12em;
 }
 
@@ -132,8 +167,8 @@ body {
   top: 50%;
   color: #6c757d;
   font-size: 2.5rem;
-  cursor: pointer;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .leftArrow {
@@ -142,16 +177,6 @@ body {
 
 .rightArrow {
   right: 35px;
-}
-
-.picture {
-  width: 100%;
-  height: 100%;
-}
-
-.picture img {
-  max-width: 100%;  
-  height: auto;
 }
 
 .langico {
@@ -163,13 +188,138 @@ body {
   border: none;
   border-radius: 8px;
   transition: background-color 0.3s ease;
+  
+  button {
+    justify-content: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
 }
 
-.langico button {
-  font-family: 'Courier Prime', 'DotGothic16', monospace;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-  cursor: pointer;
+@media only screen and (max-width: 1368px) {
+  body {
+    padding: 2rem 10%;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .navbuttons {
+    margin-top: 0rem;
+    font-size: 1rem;
+  }
+
+  .navbuttons a {
+    padding: 10px 20px;
+  }
+
+  .textcontainer {
+    width: 85%;
+  }
+  
+  .header_title, .header_company, .header_company2, .header_date, 
+  .header_desc, .header_desc2, .header_info, 
+  .header_info_exp, .block_magnify, .block_magnify2 {
+    font-size: 1.1rem;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .header_title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .pictureContainer {
+    padding: 0 6em;
+  }
+  
+  .langico {
+    top: 8px;
+    left: 8px;
+    padding: 8px;
+  }
+
+  .langico button {
+    font-size: .8rem;
+  }
+
+  .signature img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    padding: .5rem 5%;
+  }
+
+  .name {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .navbuttons {
+    font-size: 0.7rem;
+  }
+
+  .navbuttons a {
+    padding: 5px 15px;
+  }
+
+  .header_title, .header_company, .header_company2, .header_date, 
+  .header_desc, .header_desc2, .header_info, 
+  .header_info_exp, .block_magnify, .block_magnify2 {
+    font-size: 0.7rem;
+    padding: 0.8rem;
+    text-align: left;
+  }
+
+  .header_title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .pictureContainer {
+    padding: 0 4em;
+  }
+
+  .langico {
+    top: 5px;
+    left: 5px;
+    padding: 0px;
+  }
+
+  .langico button {
+    font-size: .4rem;
+  }
+
+  .signature {
+    padding-top: 0.5rem;
+  }
+
+  .textcontainer {
+    padding: 0 1em 1em;
+  }
+
+  .signature img {
+    width: 80%;
+    height: auto;
+  }
+
+  .pictureContainer {
+    padding: 0 5.25em;
+  }
+
+  .picture img {
+    min-width: auto;
+    height: 100%;
+  }
+
+  .leftArrow, .rightArrow {
+    font-size: 1rem;
+  }
 }
