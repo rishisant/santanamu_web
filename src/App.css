@@ -33,9 +33,9 @@ body {
 }
 
 .navcontainer {
-   display: flex;
-   justify-content: space-around;
-   border-bottom: 2px solid #e0e6e9
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #e0e6e9;
 }
 
 .navbuttons *, .langico button {
@@ -59,24 +59,15 @@ body {
 }
 
 .navbuttons a {
+  padding: 15px 25px;
   transition: background-color 0.2s linear, color 0.2s linear;
 }
 
-.navbuttons a {
-  padding: 15px 25px;
-  &:hover, .navbuttons:hover {
-    background-color: #007bff;
-    color: #ffffff;
-    cursor: pointer;
-    transform: scale(1.05);
-  }
-}
-
-.navbuttons:hover {
-  color: #ffffff;
+.navbuttons a:hover {
   background-color: #007bff;
+  color: #ffffff;
   cursor: pointer;
-  transition: transform 0.5s ease-in-out;
+  transform: scale(1.05);
 }
 
 .signature {
