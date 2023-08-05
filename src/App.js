@@ -6,6 +6,7 @@ import Landing from './Landing';
 import Projects from './Projects';
 import Experience from './Experience';
 import Pictures from './Pictures';
+import Writing from "./Writing";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/experience" element={<Experience />} />
                 <Route path="/pictures" element={<Pictures />} />
+                <Route path="/writing" element={<Writing />} />
             </Routes>
         </BrowserRouter>
     );

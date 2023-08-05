@@ -17,6 +17,7 @@ import { faPenToSquare, faClone, faMicroscope, faLink, faDatabase } from "@forta
 import "./App.css";
 
 import { Footer } from './Landing.js'
+import { NavBar } from './Landing.js'
 
 // Initializing i18n for easy translation swapping.
 i18n
@@ -67,26 +68,7 @@ const Projects = () => {
                 {t("header_sub")}
             </div>
 
-            <div className="navcontainer">
-                <div className="navbuttons">
-                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <FontAwesomeIcon icon={faHouse} style={{ marginRight: '10px' }} />
-                        {t("home_desc")}
-                    </Link>
-                </div>
-                <div className="navbuttons">
-                    <Link to="/Experience" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '10px' }} />
-                        {t("expr_desc")}
-                    </Link>
-                </div>
-                <div className="navbuttons">
-                    <Link to="/Pictures" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <FontAwesomeIcon icon={faImage} style={{ marginRight: '10px' }} />
-                        {t("pictures_desc")}
-                    </Link>
-                </div>
-            </div>
+            <NavBar />
 
             <div className="textcontainer">
                 <div className="header_title">

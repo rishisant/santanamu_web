@@ -107,5 +107,8 @@
     "projects_desc_feature3_ndb": "Conception orientée objet",
 
     "pictures_desc": "Photos",
-    "pictures_desc_label": "Pour tous les curieux..."
+    "pictures_desc_label": "Pour tous les curieux...",
+
+    "writing_title": "Écriture",
+    "writing_desc": "Un peu de mon écriture, seulement disponible dans la langue originale. Cliquez sur un morceau pour l'agrandir."
 }

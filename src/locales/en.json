@@ -107,5 +107,8 @@
     "projects_desc_feature3_ndb": "Object-oriented design",
 
     "pictures_desc": "Pictures",
-    "pictures_desc_label": "For all you stalkers..."
+    "pictures_desc_label": "For all you stalkers...",
+
+    "writing_title": "Writing",
+    "writing_desc": "A few of my pieces, only available in the original language. Click on a piece for it to expand."
 }
