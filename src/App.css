@@ -215,6 +215,48 @@ footer {
   color: #007bff;
 }
 
+.writing_container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #e9ecef;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
+}
+
+.writing_container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.title_of_writing {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.date_of_writing {
+  font-size: .75rem;
+  font-weight: 500;
+  text-align: left;
+  color: #a5a5a5;
+  float: right;
+}
+
+.piece_of_writing {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
+  padding: 1.5rem;
+  border-radius: 25px;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  color: #212529;
+}
+
 @media only screen and (max-width: 1368px) {
   body {
     padding: 2rem 10%;
@@ -267,6 +309,23 @@ footer {
   .signature img {
     width: 80%;
     height: auto;
+  }
+
+  .writing_container {
+    width: 60%;
+    margin-bottom: 1.5rem;
+  }
+
+  .title_of_writing {
+    font-size: 1.2rem;
+  }
+
+  .piece_of_writing {
+    font-size: 0.7rem;
+  }
+
+  .date_of_writing {
+    font-size: 0.6rem;
   }
 }
 
@@ -340,6 +399,23 @@ footer {
 
   .leftArrow, .rightArrow {
     font-size: 1rem;
+  }
+
+  .writing_container {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  .title_of_writing {
+    font-size: 1rem;
+  }
+
+  .piece_of_writing {
+    font-size: 0.6rem;
+  }
+
+  .date_of_writing {
+    font-size: 0.5rem;
   }
 }
 
