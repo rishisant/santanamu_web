@@ -250,7 +250,7 @@ footer {
 .piece_of_writing {
   font-size: 1rem;
   line-height: 1.7;
-  text-align: justify;
+  text-align: left;
   padding: 1.5rem;
   border-radius: 25px;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -340,12 +340,16 @@ footer {
     margin-bottom: 0.5rem;
   }
 
+  .navcontainer {
+    align-items: center;
+  }
+
   .navbuttons {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
   .navbuttons a {
-    padding: 5px 15px;
+    padding: 5px 10px;
   }
 
   .header_title, .header_company, .header_company2, .header_date, 

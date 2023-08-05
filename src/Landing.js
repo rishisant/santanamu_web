@@ -10,7 +10,7 @@ import { initReactI18next, useTranslation } from "react-i18next";
 
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLanguage, faBriefcase, faDiagramProject, faImage, faNewspaper } from "@fortawesome/free-solid-svg-icons";
+import { faLanguage, faBriefcase, faDiagramProject, faImage, faNewspaper, faHouse } from "@fortawesome/free-solid-svg-icons";
 
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
@@ -38,13 +38,16 @@ export const Footer = () => {
 
 export const NavBar = () => {
     const { t } = useTranslation();
-    
-    return (
-        <div className="navcontainer">
+
+    // Check which page we're on and return a navbar with all the elements except that one
+
+    if (window.location.pathname === "/Experience") {
+        return (
+            <div className="navcontainer">
                 <div className="navbuttons">
-                    <Link to="/Experience" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '10px' }} />
-                        {t("expr_desc")}
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faHouse} style={{ marginRight: '10px' }} />
+                        {t("home_desc")}
                     </Link>
                 </div>
                 <div className="navbuttons">
@@ -66,7 +69,124 @@ export const NavBar = () => {
                     </Link>
                 </div>
             </div>
-    )
+        );
+    } else if (window.location.pathname === "/Projects") {
+        return (
+            <div className="navcontainer">
+                <div className="navbuttons">
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faHouse} style={{ marginRight: '10px' }} />
+                        {t("home_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Experience" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '10px' }} />
+                        {t("expr_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Pictures" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faImage} style={{ marginRight: '10px' }} />
+                        {t("pictures_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Writing" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faNewspaper} style={{ marginRight: '10px' }} />
+                        {t("writing_title")}
+                    </Link>
+                </div>
+            </div>
+        );
+    } else if (window.location.pathname === "/Pictures") {
+        return (
+            <div className="navcontainer">
+                <div className="navbuttons">
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faHouse} style={{ marginRight: '10px' }} />
+                        {t("home_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Experience" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '10px' }} />
+                        {t("expr_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Projects" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faDiagramProject} style={{ marginRight: '10px' }} />
+                        {t("projects_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Writing" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faNewspaper} style={{ marginRight: '10px' }} />
+                        {t("writing_title")}
+                    </Link>
+                </div>
+            </div>
+        );
+    } else if (window.location.pathname === "/Writing") {
+        return (
+            <div className="navcontainer">
+                <div className="navbuttons">
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faHouse} style={{ marginRight: '10px' }} />
+                        {t("home_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Experience" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '10px' }} />
+                        {t("expr_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Projects" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faDiagramProject} style={{ marginRight: '10px' }} />
+                        {t("projects_desc")}
+                    </Link>
+                </div>
+                <div className="navbuttons">
+                    <Link to="/Pictures" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <FontAwesomeIcon icon={faImage} style={{ marginRight: '10px' }} />
+                        {t("pictures_desc")}
+                    </Link>
+                </div>
+            </div>
+        );
+    } else {
+        return (
+            <div className="navcontainer">
+                    <div className="navbuttons">
+                        <Link to="/Experience" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '10px' }} />
+                            {t("expr_desc")}
+                        </Link>
+                    </div>
+                    <div className="navbuttons">
+                        <Link to="/Projects" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <FontAwesomeIcon icon={faDiagramProject} style={{ marginRight: '10px' }} />
+                            {t("projects_desc")}
+                        </Link>
+                    </div>
+                    <div className="navbuttons">
+                        <Link to="/Pictures" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <FontAwesomeIcon icon={faImage} style={{ marginRight: '10px' }} />
+                            {t("pictures_desc")}
+                        </Link>
+                    </div>
+                    <div className="navbuttons">
+                        <Link to="/Writing" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <FontAwesomeIcon icon={faNewspaper} style={{ marginRight: '10px' }} />
+                            {t("writing_title")}
+                        </Link>
+                    </div>
+                </div>
+        )
+    }
 }
 
 // Initializing i18n for easy translation swapping.
