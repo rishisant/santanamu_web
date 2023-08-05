@@ -227,7 +227,7 @@ footer {
 }
 
 .writing_container:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -248,7 +248,7 @@ footer {
 }
 
 .piece_of_writing {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.7;
   text-align: justify;
   padding: 1.5rem;
@@ -312,7 +312,7 @@ footer {
   }
 
   .writing_container {
-    width: 60%;
+    width: 80%;
     margin-bottom: 1.5rem;
   }
 
@@ -402,7 +402,7 @@ footer {
   }
 
   .writing_container {
-    width: 60%;
+    width: 80%;
     margin-bottom: 1rem;
   }
 
