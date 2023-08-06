@@ -96,6 +96,52 @@ const Writing = () => {
                     {t("writing_desc")}
                 </div>
 
+                <div className="writing_container" onClick={() => entry_on_click("4")}>
+                    <div className="date_of_writing">
+                        2023-08-06
+                    </div>
+                    <div className="title_of_writing">
+                        Cognitive Augmentation through Linguistic Proficiency
+                    </div>
+                    <div className="piece_of_writing" wid="4" style={{ display: "none" }}>
+                    Language has long beguiled me in its intricacy and wonder. Isn’t it an astonishing spectacle, that identical concepts can be articulated through distinctly disparate words and phrases? Surely, we must marvel at this magnificent linguistic “hash map” laid before us. I relish in the exhilaration of conquests both cerebral and cultural, and the enlightenment garnered from the exploration of fresh languages and societies has profoundly augmented my worldview – a privilege I take not for granted.
+                    <br></br><br></br>
+                    I make this assertion with the deepest humility – perhaps providence has favored me with remarkable cognitive aptitudes for comprehension and information synthesis. Yet, it is through steadfast dedication and assiduous cultivation that I chiseled this cerebrum, priming it for the demanding task of language processing and cross-cultural integration.
+                    <br></br><br></br>
+                    I have many lofty ambitions, not least among them is becoming a nexus – a conduit capable of bridging the linguistic chasm between the multitudes, transcending disparities in language and shared historical experience. To foster such connections, to bask in the resplendent glory of such a role, it engenders in my heart a yearning as indomitable as the tree of life itself.
+                    <br></br><br></br>
+                    The pursuit of mastering foreign tongues has endowed me with a profound appreciation for the complexities of English. I maintain this position – with unwavering certainty – that it stands unparalleled as a conduit for the manifestation of complex thought. The formidable array of idiomatic expressions, in symbiosis with the diverse currents of enunciation, merge together to form a rich tapestry of intellectual discourse.
+                    <br></br><br></br>
+                    It is without a doubt that I underscore the profound value of language acquisition as a tool for fortifying memory capacity. As drawn from my personal foray into this realm, my capacity for memorization has been exponentially bolstered, inclusive of accelerated recall and enhanced problem-solving prowess. When endeavoring to articulate the same thoughts in an acquired language, in comparison with the effortlessness in one’s native tongue, it seems to kindle an infrequently exploited segment of the cerebrum. Asserting with conviction, the odyssey of language-learning has unquestionably bestowed upon me a formidable cognitive arsenal and intellectual might, fortifying me within various tasks in my quotidian life.
+                    <br></br><br></br>
+                    And thus, we arrive at the fin of my essay, one imbued with an aspiration to kindle within you a fervor for learning, or perpetuating the journey of understanding languages beyond that of your native language. For in conversing with a man in his mother tongue, it is said that those words are delivered directly to his heart.
+                    <br></br><br></br>
+                    <div style={{ float: "right" }}> - R. Santhanam </div>
+                    </div>
+                </div>
+
+                <div className="writing_container" onClick={() => entry_on_click("3")}>
+                    <div className="date_of_writing">
+                        2023-08-06
+                    </div>
+                    <div className="title_of_writing">
+                        Interplay of Solitude in the Genesis of Ideation: A Cognitive Appraisal
+                    </div>
+                    <div className="piece_of_writing" wid="3" style={{ display: "none" }}>
+                    An affinity for solitude is a trait that I harbor, finding blissful solace in the embrace of loneliness. This solitude revels in the absence of superfluities; I have attained a plentitude of knowledge and comprehension through treks throughout the vast expanses of nature, armed enticingly with nothing more than a parchment of thoughts and a quill soaked in ink.
+                    <br></br><br></br>
+                    It is within such a context that I find it compelling to delve into an exploration of the raw, primal essence of solitude, elucidating the brilliance that it kindles – and more significantly, its necessity as an incubator for genial thought process. This is not a self-indulgent claim of my possession of genius, but rather an attempt to dissect the underpinnings of its cultivation, one could say – to fathom the precursors that orchestrate the symphony that is brilliance.
+                    <br></br><br></br>
+                    A frequent discourse I engage in with my acquaintances revolves around the jarring intrusion of modern society: ceaseless flickering of screens, the clamor of discordant music – all serving as formidable barricades, obstructing the path to authentic understanding and mental vigor. The potency of silence, I believe, far outweighs the impact of speech – a profound thought often overshadowed in the grand amphitheater of intellectual discernment. It is within that silence that your mind weaves an eloquent soliloquy of innovation and creativity – just as diamonds being shaped under intense pressure, so too is the brain honed and sharpened through the ceaseless challenges of navigating the labyrinth of silence – a maelstrom of ingenious ideation, stirred within the pot of sophistication.
+                    <br></br><br></br>
+                    Amid my relentless pursuit for clarity and profound understanding of the existential dome in which we dwell, and my continual striving towards intellectual excellence, it is therein where I have discerned the magnitude and indispensability of protracted intervals of solitude. Certainly, I maintain a communicative bond with friends and family; however, for the sake of thought evolution, I have chosen to curtail certain aspects of my existence– namely, the pursuits of romantic entanglements and worldly adventures. My decision of abstinence stems not from an absence of opportunities therein, but rather from an intentional preference for employing that energy towards the ceaseless mental gymnastics and cognitive exploration, thus offering a fertile ground for the blossoming of elevated ideation.
+                    <br></br><br></br>
+                    I harbor no haste in this “pursuit of enlightenment”, for does not the quest for wisdom remain perennial, an unending voyage? As such, I find my fulfillment ensconced within the journey itself, rather than the elusive touch of its destination. My crusade for knowledge acquisition is not an act of self-indulgence, but a venture born from the desire to disseminate this wisdom – whether echoed through the lives of my future descendants, or contemporary peers, or within the inscription of my works, which I humbly aspire to serve as wellsprings of inspiration and cerebral stimulation for those who encounter them.
+                    <br></br><br></br>
+                    <div style={{ float: "right" }}> - R. Santhanam </div>
+                    </div>
+                </div>
+
                 <div className="writing_container" onClick={() => entry_on_click("2")}>
                     <div className="date_of_writing">
                         2023-08-05
