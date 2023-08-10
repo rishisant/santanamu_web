@@ -96,6 +96,38 @@ const Writing = () => {
                     {t("writing_desc")}
                 </div>
 
+                <div className="writing_container" onClick={() => entry_on_click("5")}>
+                    <div className="date_of_writing">
+                        2023-08-10
+                    </div>
+                    <div className="title_of_writing">
+                        The Invisible Tethers of the Internet
+                    </div>
+                    <div className="piece_of_writing" wid="5" style={{ display: "none" }}>
+                    I feel like as of late I’ve been using too flowery of language (as my father likes to call it) – I feel like I’ve been lacking more of a personalized feel to my prose.
+                    <br></br><br></br>
+                    Don’t get me wrong, I do enjoy my past pieces, but they feel quite impersonal. Doesn’t feel as human as I’d like it to. 
+                    <br></br><br></br>
+                    I want to particularly delve into worldly evolution – not an evolution in the sense of Darwinism, which I inherently find fraudulent; however, an abstracted concept of evolution. Perhaps, let’s say the evolution of human interaction. This phenomenon particularly affects the younger generation. As we streamline towards a digitized society, we notice the greatest influence on the most impressionable minds. Unsurprisingly, they also wield considerable influence over cultural trends due to their unsurpassed Internet usage, dictating what becomes mainstream.
+                    <br></br><br></br>
+                    I would like to note an alternate point about how I believe due to the shortened language we have begun using (and I attribute this primarily to the Internet’s proliferation ability) that we have limited our range of thoughts and expression – which I believe will ultimately lead to the demise of widespread sophistication amongst the populous (but who’s to say this hasn’t yet happened?). I will dive into the destruction of the English language and its dire consequences within another essay.
+                    <br></br><br></br>
+                    Back to the topic – the more an individual spends time on the Internet, lacking direct human interaction (I will say that if the majority of one's human interaction is with humans that interact with the Internet more than they do with other humans, this is also not favorable) — I find that they subject themselves to a peculiar torture – one that individuals willingly subject themselves to (a Stockholm syndrome of sorts). Internet addiction, most definitely, is a veritable thing. All of us, at one point or another, have found ourselves ensnared within the web’s inescapable trap of infinite content.
+                    <br></br><br></br>
+                    The torture ironically engages us primarily due to the 'curatable' dimension of our Internet experience. Subject to our discretion are countless options – we decide what to watch, what to consume (although I would imply external influences significantly impact our decisions) and how to express ourselves. A simple remedy? A pseudonym to interact without apprehension, your human identity de-personified through an avatar or username.
+                    <br></br><br></br>
+                    Most people, however, are not vigilant enough of controlling their own desire – which is why you get average daily screen times exceeding six or more hours amongst the Internet generation no matter where you go. This is not a local ailment, but a pandemic that threatens all demographics. The exploitation of addiction by certain groups and organizations aids not in this matter. People are then turned into eternal consumers and thus into nothing but drones… The newly coined term “NPC” seems rather humorous, yet uncannily accurate in this situation.
+                    <br></br><br></br>
+                    The problem is, you start having people think they’re not “NPCs” when they virtually are. The only separation from this, I’ve found, is a belief in the divine and an understanding of your actions and the consequences they hold on one’s spirit. 
+                    <br></br><br></br>
+                    And the Internet, no matter how useful it can be – is in the modern age, a direct spiritual enemy. 
+                    <br></br><br></br>
+                    Be wise with your desires and they shall not chain you. The more you indulge in them, the more they burgeon, betraying you by devouring you whole in the end.
+                    <br></br><br></br>
+                    <div style={{ float: "right" }}> - R. Santhanam </div>
+                    </div>
+                </div>
+
                 <div className="writing_container" onClick={() => entry_on_click("4")}>
                     <div className="date_of_writing">
                         2023-08-06
