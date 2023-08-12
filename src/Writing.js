@@ -96,6 +96,35 @@ const Writing = () => {
                     {t("writing_desc")}
                 </div>
 
+                <div className="writing_container" onClick={() => entry_on_click("6")}>
+                    <div className="date_of_writing">
+                        2023年8月12日
+                    </div>
+                    <div className="title_of_writing">
+                        現代建築の一面：量産と品質低下のジレンマ
+                    </div>
+                    <div className="piece_of_writing" wid="6" style={{ display: "none" }}>
+                    今回、特別に僕の投稿を日本語で綴ってみようと思います。日本語学習はやはり挑戦ですが、最近は熱心に勉強しているから、得た経験を活かしたい。
+                    <br></br><br></br>
+                    僕はよく建築について考えます。どこを訪れても、現代建築と古建築を比較し、残念ながら度々失望することもあります。問題の一端として、建築界における量産の風潮が浮かび上がってきます。その結果、現代建築の品質が著しく劣化し、その価値を大きく失っていると感じます。
+                    <br></br><br></br>
+                    この傾向は建築業界だけにとどまらず、他の産業でも見受けられます。プラスチックや人工素材の頻繁な使用が、品質低下を招くのは明らかです。また、急速な生産需要と職人技の衰退が、デザインに乏しい商品の増産を引き起こしているように思います。
+                    <br></br><br></br>
+                    具体的にいうと、「建築の工業化」が一つの例です。これは設計から施工まで全過程が効率やコスト削減を重視し、結果として均一化された商品が大量生産される状況を指します。だが、果たしてこれが長期的に真に良質な建築を生み出せるのでしょうか？それとも、短期的な利益追求だけが目的なのでしょうか？
+                    <br></br><br></br>
+                    これらの考察から、「量産と品質低下のジレンマ」と呼び、その本質を問い直すことが求められます。
+                    <br></br><br></br>
+                    僕たちが普段目にする建築物の大部分は、量産文化の結果と言えます。時間と費用の効率性が実現されたとすれば、それは成功です。しかしながら、美的価値や耐久性、さらに生活環境への配慮という視点から見れば、大きな犠牲があることを否めません。
+                    <br></br><br></br>
+                    この建築のジレンマを克服するためには、量産重視の現代トレンドを再評価し、真の価値追求が重要と言えるでしょう。そうでなければ、僕たちは単に同じような建築物に囲まれ、その虚しさを感じるだけだろう。それは本当に望む世界なのでしょうか？
+                    <br></br><br></br>
+                    未来の建築がどうあるべきかは人それぞれです。しかし、少なくとも「量産と品質低下のジレンマ」から脱却した形であるべきだと僕は強く感じます。これは僕だけの問題ではなく、我々全てが向き合うべき問題です。今こそ、より良い建築を求める新しい道を切り開くべき時だと思います。それが、より豊かな未来への第一歩となるでしょう。
+                    <br></br><br></br>
+                    <div style={{ float: "right" }}> - サンタナム理志 </div>
+                    </div>
+                </div>
+
+
                 <div className="writing_container" onClick={() => entry_on_click("5")}>
                     <div className="date_of_writing">
                         2023-08-10
@@ -128,7 +157,7 @@ const Writing = () => {
                     </div>
                 </div>
 
-                <div className="writing_container" onClick={() => entry_on_click("4")}>
+                {/* <div className="writing_container" onClick={() => entry_on_click("4")}>
                     <div className="date_of_writing">
                         2023-08-06
                     </div>
@@ -150,7 +179,7 @@ const Writing = () => {
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - R. Santhanam </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="writing_container" onClick={() => entry_on_click("3")}>
                     <div className="date_of_writing">
