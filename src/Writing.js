@@ -96,6 +96,32 @@ const Writing = () => {
                     {t("writing_desc")}
                 </div>
 
+                <div className="writing_container" onClick={() => entry_on_click("7")}>
+                    <div className="date_of_writing">
+                        2023-09-04
+                    </div>
+                    <div className="title_of_writing">
+                        Crooked Smiles and Warped Mirrors
+                    </div>
+                    <div className="piece_of_writing" wid="7" style={{ display: "none" }}>
+                    Not to be long-winded, but it’s been some time since my fingers jitterbugged on the keyboard. You know how it is – that itch to spill what’s in the noggin to anyone who’ll listen. So let’s jump into it.
+                    <br></br><br></br>
+                    The whole kit and caboodle of me, well, it’s got an uncanny tilt. I remember some years back, laying on the bed, my girlfriend at the time sized me up the way a butcher eyes a side of beef – talking about how asymmetrical my face was. I had that lingering suspicion that my mug wasn’t exactly a Hollywood headshot, but I still was a little in denial. 
+                    <br></br><br></br>
+                    See, given enough time, I realized how lopsided I really am, down to the crux of it. Not just the mug, but the whole shebang. The cartilage in my left knee’s wearing thin, and my left arm was contorted enough to make a circus freak applaud, thanks to some mishaps back in my school days. I’m a shantytown shack in a hurricane - asymmetrical down to the marrow.
+                    <br></br><br></br>
+                    But here’s the kicker, with each passing day, I’m liking it more and more. What’s an irreverent son of a gun without his quirks? I relish in the extreme. Makes me who I am.
+                    <br></br><br></br>
+                    And here’s the point I want to make. Asymmetry should be preferred over symmetry. People talk about striking a balance, but when does balance get shit done? Balance hardly twinkles with a touch of magic. Magic lies in the extremities. The proverbial straw that broke the camel’s back, the weight of existence upon one’s shoulders that threatens to crush you or forces a rebirth of strength – these moments carve a man’s true essence. The irresistible allure of high-pressure crucibles, their promise of growth, always gets me salivating.
+                    <br></br><br></br>
+                    I’m a wild card. That rogue cannon in a field of popguns. Living on the edge, and heck, even over it sometimes. The guys I admire the most never lived by the rule book. We’re all playing parts, sure. Some get the lead, some are stuck in the chorus line. But isn’t it more fun to be the jester, thumbing his nose at the king?
+                    <br></br><br></br>
+                    Funny thing is, stuff I used to think was a problem, I’d now give a hearty toast to. Who would’ve thunk it?
+                    <br></br><br></br>
+                    <div style={{ float: "right" }}> - R. Santhanam </div>
+                    </div>
+                </div>
+
                 <div className="writing_container" onClick={() => entry_on_click("6")}>
                     <div className="date_of_writing">
                         2023年8月12日
@@ -203,7 +229,7 @@ const Writing = () => {
                     </div>
                 </div>
 
-                <div className="writing_container" onClick={() => entry_on_click("2")}>
+                {/* <div className="writing_container" onClick={() => entry_on_click("2")}>
                     <div className="date_of_writing">
                         2023-08-05
                     </div>
@@ -223,9 +249,9 @@ const Writing = () => {
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - R. Santhanam </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="writing_container" onClick={() => entry_on_click("1")}>
+                {/* <div className="writing_container" onClick={() => entry_on_click("1")}>
                     <div className="date_of_writing">
                         2023-08-05
                     </div>
@@ -257,7 +283,7 @@ const Writing = () => {
                         <br></br><br></br> 
                         <div style={{ float: "right" }}> - R. Santhanam </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
