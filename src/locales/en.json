@@ -16,6 +16,16 @@
     "expr_edu_title": "Education",
 
     "expr_desc": "Professional Experiences",
+
+    "expr_title_adv": "Advantech Japan",
+    "expr_position_adv": "Software Developer, Secretary",
+    "expr_date_adv": "8/2023 - Present",
+    "expr_point1_adv": "Assisted the director in decision-making processes, interviewed potential candidates, planned and organized events and meetings.",
+    "expr_point2_adv": "Maintained close connections with customers within the Service IOT sector. Conducted multiple software installations, worked in customer support roles, and developed custom code for troubleshooting and debugging issues with the SUSI API.",
+    "expr_point3_adv": "Took part in exhibitions like Logis Tech in Tokyo, engaging in multilingual communication in Japanese, English, and French to generate new leads and converse with potential or interested customers.",
+    "expr_point4_adv": "Instructed employees on the proper use of Intel CScripts for error injection and troubleshooting, trained them, and wrote various documents to increase efficiency in the Engineering IoT sector.",
+    "expr_point5_adv": "Performed the job mainly in Japanese, using English to interact with foreign customers.",
+
     "expr_title_odoo": "Odoo",
     "expr_position_odoo": "Software Development Intern",
     "expr_date_odoo": "6/2023 - 8/2023",

@@ -15,10 +15,23 @@
 
     "expr_edu_title": "教育",
 
+    
+
     "expr_desc": "プロフェッショナルな経験",
+
+    "expr_title_adv": "Advantech Japan",
+    "expr_position_adv": "ソフトウェア開発者、秘書",
+    "expr_date_adv": "8月2023年 - 現在",
+    "expr_point1_adv": "ディレクターの意思決定プロセスを支援し、候補者の面接を行い、イベントと会議の計画と組織を行いました。",
+    "expr_point2_adv": "サービスIoTセクター内の顧客との緊密なつながりを保ち、複数のソフトウェアのインストール、顧客サポート役割、およびSUSI APIの問題のトラブルシューティングとデバッグのためのカスタムコードの開発を行いました。",
+    "expr_point3_adv": "東京のLogis Techなどの展示会に参加し、日本語、英語、フランス語での多言語コミュニケーションを行い、新規リードを生成し、潜在的な顧客や興味を持った顧客との会話を行いました。",
+    "expr_point4_adv": "Intel CScriptsのエラーインジェクションとトラブルシューティングの適切な使用方法を社員に指導し、それらの訓練を行ったばかりでなく、各種文書を書き、工学IoTセクターの効率を向上させました。",
+    "expr_point5_adv": "主に日本語で仕事を行い、外国の顧客と交流するために英語を使用しました。",
+
+
     "expr_title_odoo": "Odoo",
-    "expr_position_odoo": "Software Development Intern",
-    "expr_date_odoo": "6/2023 - 8/2023",
+    "expr_position_odoo": "ソフトウェア開発インターン",
+    "expr_date_odoo": "6月2023年 - 8月2023年",
     "expr_point1_odoo": "Python, JavaScript, Reactフレームワーク, SQLを使用し、Odooフレームワークにカスタム機能を開発、実装し、アプリケーションの機能を強化しました。",
     "expr_point2_odoo": "クライアントのリクエストに基づいて既存のアプリケーションを変更しました。これにはビュー、モデル構造、その他のコンポーネントへの変更が含まれました。",
     "expr_point3_odoo": "Odooの構造内でカスタムアプリケーションを実装するプロジェクトに貢献しました。",
@@ -26,15 +39,15 @@
     "expr_point5_odoo": "クロス機能チームとの協力を行い、クライアントに焦点を当てたソリューションを提供しました。",
 
     "expr_title_idt": "iD Tech Camps",
-    "expr_position_idt": "Computer Science Instructor",
-    "expr_date_idt": "3/2023 - 6/2023",
+    "expr_position_idt": "コンピューターサイエンスインストラクター",
+    "expr_date_idt": "3月2023年 - 6月2023年",
     "expr_point1_idt": "C++, JavaScript, Pythonのパーソナライズされたレッスンを開発し、提供しました。これにはデータ構造とアルゴリズムなどの上級トピックを学生に紹介しました。",
     "expr_point2_idt": "10-15歳の生徒を教育・交流し、刺激的な学習環境を提供しました。",
     "expr_point3_idt": "プライベートチュータリングの機会をもたらす学生参加の成功を実証しました。これは効果的な教育とパーソナライズされた指導に対する僕の取り組みを強調しました。",
 
     "expr_title_headatt": "Texas A&M Rec Sports",
-    "expr_position_headatt": "Head Attendant",
-    "expr_date_headatt": "1/2022 - 9/2022",
+    "expr_position_headatt": "アテンダントのリーダー",
+    "expr_date_headatt": "1月2022年 - 9月2022年",
     "expr_point1_headatt": "多客流の学生レクリエーションセンターのシフトを管理し、最大600人の顧客を持つ施設を監督しました。",
     "expr_point2_headatt": "施設のスムーズな運営を保証するための必要な書類の管理およびアテンダントチームへの作業割り当てを行いました。",
     "expr_point3_headatt": "様々なエクササイズの正確な実行を示すことにより、学生やアスリートが身体的に最大のポテンシャルを達成するのを助けました。",
@@ -42,29 +55,29 @@
     "expr_point5_headatt": "マネジメントスキルを強化し、最善の実践を吸収し、効果的なチームダイナミクスとリーダーシップ戦略についての幅広い理解を養うために、さまざまなリーダーシップカンファレンスとイベントに参加しました。",
 
     "expr_title_att": "Texas A&M Rec Sports",
-    "expr_position_att": "Attendant",
-    "expr_date_att": "8/2021 - 12/2021",
+    "expr_position_att": "アテンダント",
+    "expr_date_att": "8月2021年 - 12月2021年",
     "expr_point1_att": "適切なエクササイズ技術をデモンストレーションすることや様々なスポーツとワークアウトについての専門知識を共有することで、学生および学生アスリートが身体的なポテンシャルを最大化するのを支援しました。",
     "expr_point2_att": "設備を定期的に消毒することや清潔なトレーニング環境を保つことにより、施設の衛生と清潔さを維持しました。",
     "expr_point3_att": "疑問に答えたり、ルールと規制を施行したりして、安全で尊重されるワークアウトカルチャーを維持しました。","expr_point4_att": "職業的かつ迅速な方法で学生の要求や問い合わせに対応することで、質の高いカスタマーサービスを提供しました。",
 
     "expr_title_pm": "Texas A&M College of Engineering",
-    "expr_position_pm": "Peer Mentor",
-    "expr_date_pm": "8/2021 - 12/2021",
+    "expr_position_pm": "教育助手",
+    "expr_date_pm": "8月2021年 - 12月2021年",
     "expr_point1_pm": "Texas A&Mの新入生エンジニアリング学生向けにメンターを務め、プログラムへのスムーズな移行をサポートしました。",
     "expr_point2_pm": "教員やスタッフと協力して、エンジニアリングプログラムでの学生の成功を向上させるための戦略を立案し、実施しました。",
     "expr_point3_pm": "生徒との1対1のミーティングを行い、彼らの個別のニーズ、目標、障害をより良く理解し、Texas A&Mでの学術生活の計画と実現を効果的に支援しました。",
 
     "expr_title_mt": "Mathnasium",
-    "expr_position_mt": "Mathematics Tutor",
-    "expr_date_mt": "6/2019 - 12/2019",
+    "expr_position_mt": "数学の家庭教師",
+    "expr_date_mt": "6月2019年 - 12月2019年",
     "expr_point1_mt": "1年生から12年生までの生徒に数学を教え、理解とパフォーマンスを向上させるための個別化された教授戦略を用いました。",
     "expr_point2_mt": "教室を清掃・整理することで秩序ある学習環境を維持しました。",
     "expr_point3_mt": "学習センターの効率的な運営を補助するために、ファイリングや整理などの行政業務に参加しました。",
 
     "expr_education": "Texas A&M University",
     "expr_edu_degree": "コンピューターサイエンス学士",
-    "expr_date_edu": "8/2020 - 12/2024",
+    "expr_edu_date": "8月2020年 - 12月2024年",
     "expr_point1_edu": "男子クラブバスケットボール主将",
     "expr_point2_edu": "TAMUHackやHackTXなど複数のハッカソンに参加。",
     "expr_point3_edu": "工学部ピアメンター",

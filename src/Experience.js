@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage, faHouse, faDiagramProject, faImage } from "@fortawesome/free-solid-svg-icons";
 
-import { faLaptopCode, faPersonChalkboard, faDumbbell, faCalculator, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faPersonChalkboard, faDumbbell, faCalculator, faGraduationCap, faMicrochip } from "@fortawesome/free-solid-svg-icons";
 
 import "./App.css";
 
@@ -74,6 +74,24 @@ const Experience = () => {
                 <div className="header_title">
                     {t("expr_desc")}
                 </div>
+
+                <div className="block_magnify">
+                    <div className="header_company">
+                        <FontAwesomeIcon icon={faMicrochip} style={{ marginRight: '15px' }} />
+                        {t("expr_title_adv")} - {t("expr_position_adv")}
+                    </div>
+                    <div className="header_date">
+                        {t("expr_date_adv")}
+                    </div>
+                    <div className="header_info_exp">
+                        <li>{t("expr_point1_adv")}</li>
+                        <li>{t("expr_point2_adv")}</li>
+                        <li>{t("expr_point3_adv")}</li>
+                        <li>{t("expr_point4_adv")}</li>
+                        <li>{t("expr_point5_adv")}</li>
+                    </div>
+                </div>
+
                 <div className="block_magnify">
                     <div className="header_company">
                         <FontAwesomeIcon icon={faLaptopCode} style={{ marginRight: '15px' }} />

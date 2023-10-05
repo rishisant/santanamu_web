@@ -16,6 +16,16 @@
     "expr_edu_title": "Éducation",
 
     "expr_desc": "Expériences professionnelles",
+
+    "expr_title_adv": "Advantech Japon",
+    "expr_position_adv": "Développeur de logiciels, Secrétaire",
+    "expr_date_adv": "8/2023 - Présent",
+    "expr_point1_adv": "Assisté le directeur dans les processus de prise de décision, interrogé les candidats potentiels, planifié et organisé des événements et des réunions.",
+    "expr_point2_adv": "Maintenu des connexions étroites avec les clients au sein du secteur Service de l'IdO. Effectué plusieurs installations de logiciels, des rôles de support client, et développé du code personnalisé pour le dépannage et le débogage des problèmes liés à l'API SUSI.",
+    "expr_point3_adv": "Participé à des expositions comme Logis Tech à Tokyo, en engageant des communications multilingues en japonais, anglais et français pour générer de nouveaux leads et converser avec des clients potentiels ou intéressés.",
+    "expr_point4_adv": "Instructé les employés sur l’utilisation correcte des CScripts Intel pour l’injection d’erreurs et le dépannage, effectué leur formation, et rédigé divers documents pour augmenter l’efficacité dans le secteur Ingénierie de l'IdO.",
+    "expr_point5_adv": "Effectué le travail principalement en japonais, en utilisant l'anglais pour interagir avec des clients étrangers.",
+
     "expr_title_odoo": "Odoo",
     "expr_position_odoo": "Stagiaire en développement de logiciels",
     "expr_date_odoo": "6/2023 - 8/2023",
