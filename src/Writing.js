@@ -53,6 +53,12 @@ const switchLanguage = () => {
 const Writing = () => {
     const { t } = useTranslation();
 
+    const paragraphBreak = () => {
+        return (
+            <span style={{ display: "block", marginLeft: "auto", marginRight: "auto", width: "50%", paddingTop: "2rem", paddingBottom: "2rem", fontSize: "1.3em", color: "#858585", textAlign: "center" }}>&sect;&sect;&sect;</span>
+        )
+    };
+
     const entry_on_click = (wid) => {
         // search for all the piece_of_writing elements
         const allpow = document.getElementsByClassName("piece_of_writing");
@@ -96,6 +102,63 @@ const Writing = () => {
                     {t("writing_desc")}
                 </div>
 
+                <div className="writing_container" onClick={() => entry_on_click("10")}>
+                    <div className="date_of_writing">
+                        2023-12-25
+                    </div>
+                    <div className="title_of_writing">
+                        An Ode to Lost Linguistic Artistry
+                    </div>
+                    <div className="piece_of_writing" wid="10" style={{ display: "none" }}>
+                    It has been a while since I’ve struck pen to paper, or rather, finger to keypress. Regardless of the analogy, I wish to present an interesting thesis - one that has undergone the tempering of fine metalwork, or rather, “brainstorming”. What even is “brainstorming”, and why does it sound so idiotic?
+                    <br></br><br></br>
+                    Regardless, whether one views my thoughts as pretentious, or rather with a sense of ingenuity, it has been clear to those who do view my pieces, those who may enjoy glancing at my cerebrations – my intricate intellectual tapestry, that I have an unadulterated affection for not merely the English language, however the pulsating heart of linguistics in its entirety… I have courted various tongues, the mellifluous odes of French, with the peaceful flows of Japanese.
+                    <br></br><br></br>
+                    This conundrum, however, pesters me daily. You see, I was always one to have a checkered relationship with the English classroom. I had never scored highly in one, nor had I had maintained a deep relationship with those who had been instructing me. I believe the curriculum is absolutely devoid of sophistication, and rather is an over-simplified and unnatural way of grasping the beauty that is the English language.
+                    <br></br><br></br>
+                    I would read the pieces of my peers, seemingly more palatable to the academicians than that of my own, and I wondered, what about my writing is undeserving of this academic approval? Granted, a higher mark is no definitive insignia of superiority… The standard is relatively subjective, but there is an undeniable objectivity in greatness.
+                    <br></br><br></br>
+                    And so it led me down a path, a much deeper road to run through. One that I had observed during my sojourn in America. The older I got, I had come to the realization that widespread sophistication amongst the general populous had severely declined. Albeit, we have glistening gadgets that can help you do almost anything with the click of a button, or screens that flash with hypnotic allure and vibrant colors, automobiles with more buttons in them than on one’s shirt… Despite this, however, society, under its veneer of advancement, teeters on the precipice of a cognitive regress.
+                    
+                    {paragraphBreak()}
+                    
+                    The manner of one’s speech does often fall under subconscious scrutiny. An unspoken bias holds sway, garnering respect for complex articulations while relegating simple tongue to an assumed lack of intellect – this is a natural means of discrimination, and to approach this with honesty means to accept such a decree. Funny enough, I find those who honestly accept this “primal” truth to demonstrate higher intelligence than those who don’t.
+                    <br></br><br></br>
+                    Intellect, however, is not the defining characteristic of superiority – rather, I reward that title to wisdom. One who is wise understands the judgement of others is largely in vain, especially if one doesn’t hold oneself to that exact standard. I dislike being a hypocrite, thus, I do hold myself to the standards which I unveil in this prose.
+                    <br></br><br></br>
+                    This piece should not be misconstrued an attack on those who don’t speak in the manner which I do. Rather, it is a somber glimpse into what the future holds with respect to the decline of English language. Granted, there are some, who if they speak with sophistication, will be looked down by their peers, who speak much simpler. This “peer pressure” of sorts lends itself to more negative effects. One may be ostracized for speaking correctly, which is an unfortunate reality for many people.
+                    <br></br><br></br>
+                    Being able to elaborate on one’s thoughts with complexity allows for the integration of nuances, incredibly important for emotional expression – something inherent to our human nature. Whether one believes we evolved from parasites or were intelligently created, the dismissal of such inherent human traits is to disregard a significant facet of our being. We are not beasts, even if we have no preeminence above them. Our conscience reflects a cognitive and emotional architecture surpassing that of other species.
+                    <br></br><br></br>
+                    Our capacity to communicate complex ideas, to comprehend abstract concepts and to explore the vast landscapes of emotion, sets us apart. To simplify our language excessively is, in essence, to suppress a vital part of our humanity, and ultimately, hinders our society’s evolution towards comprehensive understanding and emotional depth.
+                    
+                    {paragraphBreak()}
+
+                    One may wonder, why is it that our language abilities have been on the decline? One cannot drive this narrative without acknowledging the immense influence exerted by our escalating media consumption in recent times. It would be a grave mistake to believe that those piloting the ship of popular media and government harbor only altruistic intentions. I am but a humble observer. I am no better than the one reading this, and this is simply a canvas for me to paint on, however, if your faith is invested in media and governing bodies, you might find yourself wandering down a treacherous path unforeseen.
+                    <br></br><br></br>
+                    Contrary to popular conviction, we are not good judges of ourselves and our habits. On our own, we are not incredibly self-aware, and most tend to be unaware of the damage that media consumption does to their psyche and spirit. In today’s world, the outdoors are rapidly becoming an extension of your living room, with screens flashing their hypnotic dance at every corner. Any urban landscape you navigate through is punctuated by these digital canvases. 
+                    <br></br><br></br>
+                    The difference between screens and canvases is that canvases are static. The ability to display vast amounts of information in a second is a title held by only that of the screen. If you look at an art piece painted on a canvas, it will never change, but a screen, my friend, can show you millions of pixels within the blink of an eye.
+                    <br></br><br></br>
+                    This creates a palpable allure, seducing the average person far more than a static image ever could. While a classic painting inspires you to spin tales, a digital screen may narrate a tale for you, controlling the strings of your imagination, assuming the mantle of a clandestine puppeteer. When I say “the screen is the friend of the government”, it seems ripped out of the pages of a dystopian novel; yet, it’s the unsettling reality of our time.
+                    <br></br><br></br>
+                    I remember coming across a thought that the kids of today have seen more naked women than emperors or rulers of the past. And I thought about that statement for a while – the implications for mind-control and negative brain formation… And I likened this not only to adult content, but to the domain of thought and language. In this age of screens and pixels, we have transitioned from creators to consumers at an alarming pace, thus suffocating the creative flame that fuels this engine of independent thought and expression. In essence, we become copies of each other.
+                    <br></br><br></br>
+                    Now, liken this to language, and you see people using the same language. This is more dangerous for all generations, young and old, and I will go on the record stating that you will see record-low levels of critical thinking and creative intelligence within this upcoming generation. Couple that with a loosening in morals, and you may have the formula for the destruction of society.
+                    
+                    {paragraphBreak()}
+
+                    Although my essay seems quite dreary and pessimistic, there is a resilient confidence I possess. Adversity has an uncanny tendency to sow the seeds of hope in hearts receptive to its hard-learned lessons, and mine resonates with such an ebullient optimism. I have hope that people will come to realize this reality, as only the divine light of Christ had bestowed this upon me. The God-given gift of sophistication, of learning various tongues, and the liberty of unmatched expression, has inscribed a rich tableau of experiences onto the canvas of my existence.
+                    <br></br><br></br>
+                    <span style={{fontStyle: "italic", color: "#858585", fontSize:"1em"}}>“That I might make thee know the certainty of the words of truth; that thou mightest answer the words of truth to them that send unto thee?”</span>
+                    <br></br><span style={{fontSize: "0.8em", color: "#858585", float:"right",}}>Proverbs 22:21 KJV</span>
+                    <br></br><br></br>
+                    Words cast spells, my friend. The words that spring from your lips harbor potency far beyond what one might fathom. Use that power wisely.
+                    <br></br><br></br>
+                    <div style={{ float: "right" }}> - R. Santhanam </div>
+                    </div>
+                </div>
+
                 <div className="writing_container" onClick={() => entry_on_click("9")}>
                     <div className="date_of_writing">
                         2023年10月6日
@@ -105,16 +168,33 @@ const Writing = () => {
                     </div>
                     <div className="piece_of_writing" wid="9" style={{ display: "none" }}>
                     僕はこのエッセイの冒頭で、僕達の社会がますます電子技術に依存しているという考えを述べるのです。その一方で、この技術依存は僕達をより効率的な存在へと鍛え上げるかに見えますが、その裏では、その進行性と引き替えに何を身を削っているのかという問いを立てます。それゆえに、本稿で、僕はこの非常に重要で、しかし、より深く掘り下げる必要がある問いの答えを明らかにしようと試みます。
+                    {paragraphBreak()}
+                    例えば、消費主義を考えてみてください。現代社会には選択肢が無尽蔵に広がっているかのような錯覚を抱きます。しかし、深く探求をすると、その選択肢が実際にはほんの一握りの大企業によって支配され、制限されていることが見えてくるのです。
                     <br></br><br></br>
-                    例えば、消費主義を考えてみてください。現代社会には選択肢が無尽蔵に広がっているかのような錯覚を抱きます。しかし、深く探求をすると、その選択肢が実際にはほんの一握りの大企業によって支配され、制限されていることが見えてくるのです。さらに、選択肢が増えること自体が、自体が選択の難しさを助長しているとも言えます。二つの選択肢を比較するのは簡単かもしれませんが、一つの選択肢を十個と比較すると考えると、選びやすさが確実に減少します。しかしながら、より多種多様な作品が生み出される現象と共に、一方では量の増加が質の著しい低下を招くという矛盾に目を向けることもまた重要なのです。これらの点は、消費主義をより明らかに捉える重要な要素となります。
+                    さらに、選択肢が増えること自体が、自体が選択の難しさを助長しているとも言えます。二つの選択肢を比較するのは簡単かもしれませんが、一つの選択肢を十個と比較すると考えると、選びやすさが確実に減少します。
                     <br></br><br></br>
-                    デジタル技術への依存度が増す一方で、僕達は無意識のうちにプライバシーを手放してしまっています。現在、多くの企業は我々個々のプロフィールに関する情報を山ほど蓄積し、その情報を用いて個別にターゲット付けされた広告を我々に見せつけることが可能となっています。さらに、僕達のソーシャルメディアへの情報投稿自体が反生産的であるとも言えます。現今、写真一枚から個々の人物像を特定するのは容易いばかりか、その人物の興味や関心事を深く掘り下げることまで可能となってしまっています。
+                    しかしながら、より多種多様な作品が生み出される現象と共に、一方では量の増加が質の著しい低下を招くという矛盾に目を向けることもまた重要なのです。これらの点は、消費主義をより明らかに捉える重要な要素となります。
+                    {paragraphBreak()}
+                    デジタル技術への依存度が増す一方で、僕達は無意識のうちにプライバシーを手放してしまっています。現在、多くの企業は我々個々のプロフィールに関する情報を山ほど蓄積し、その情報を用いて個別にターゲット付けされた広告を我々に見せつけることが可能となっています。
                     <br></br><br></br>
-                    若い世代だけでなく、まさにメンタルヘルスの問題は増加の一途を辿っています。僕自身は、コンテントの短縮化により、その消費量が増大したことが一因だと考えています。コンテントが短くなれば、それだけ多くのコンテントを取り込みやすくなるため、絶えず流れるコンテントの洪水に取り巻かれる形となり、最終的にはその依存状態となるのです。僕が日本に住んでいると、何処に行っても、目に映る景色は皆が携帯を手に、時間を無意味に過ごす姿ばかりです。それに対し、「たった数十年前の世界はどのようなものだったのでしょうか」とずっと考えています。
+                    さらに、僕達のソーシャルメディアへの情報投稿自体が反生産的であるとも言えます。現今、写真一枚から個々の人物像を特定するのは容易いばかりか、その人物の興味や関心事を深く掘り下げることまで可能となってしまっています。
                     <br></br><br></br>
-                    一言で言えば、僕達はインターネットで得られる情報の大部分がコントロールされ、プロパガンダ化されているという事実に光を当てることが極めて重視されるべきだと考えます。マスメディアを盲目的に信用するのではなく、自己の判断を保つことが不可欠であるという視点を持つことが求められます。しかし、他人の意見を過度に気にするあまり、自身で意見を形成する能力を紛失するリスクも増える。これこそが現代の最大の問題であり、我々は自分という存在を忘れ、所見を反映した人間のコピーに成り下がる可能性があるのです。
+                    {paragraphBreak()}
+                    若い世代だけでなく、まさにメンタルヘルスの問題は増加の一途を辿っています。僕自身は、コンテントの短縮化により、その消費量が増大したことが一因だと考えています。
                     <br></br><br></br>
-                    さらに詳細に議論したい点は山ほどありますが、明瞭さを保つために、ここで僕のエッセイを終えることにします。僕は世界が改善することを心から願っていますが、その前に一時的に悪化するだろうと予見します。我々が現在生きている現実に目覚め、デジタルの世界を手放して現実世界に回帰することを、心から切望します。
+                    コンテントが短くなれば、それだけ多くのコンテントを取り込みやすくなるため、絶えず流れるコンテントの洪水に取り巻かれる形となり、最終的にはその依存状態となるのです。
+                    <br></br><br></br>
+                    僕が日本に住んでいると、何処に行っても、目に映る景色は皆が携帯を手に、時間を無意味に過ごす姿ばかりです。それに対し、「たった数十年前の世界はどのようなものだったのでしょうか」とずっと考えています。
+                    {paragraphBreak()}
+                    一言で言えば、僕達はインターネットで得られる情報の大部分がコントロールされ、プロパガンダ化されているという事実に光を当てることが極めて重視されるべきだと考えます。
+                    <br></br><br></br>
+                    マスメディアを盲目的に信用するのではなく、自己の判断を保つことが不可欠であるという視点を持つことが求められます。しかし、他人の意見を過度に気にするあまり、自身で意見を形成する能力を紛失するリスクも増える。
+                    <br></br><br></br>
+                    これこそが現代の最大の問題であり、我々は自分という存在を忘れ、所見を反映した人間のコピーに成り下がる可能性があるのです。
+                    {paragraphBreak()}
+                    さらに詳細に議論したい点は山ほどありますが、明瞭さを保つために、ここで僕のエッセイを終えることにします。僕は世界が改善することを心から願っていますが、その前に一時的に悪化するだろうと予見します。
+                    <br></br><br></br>
+                    我々が現在生きている現実に目覚め、デジタルの世界を手放して現実世界に回帰することを、心から切望します。
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - サンタナム理志 </div>
                     </div>
@@ -133,12 +213,31 @@ const Writing = () => {
                     Perhaps it is important to illustrate the context of the 19th-century philosophies, which registered significant shifts, notably the introduction of emancipated schools of thought that invariably encroached on the traditional dominion of Christianity. The assimilation of Eastern religiosity into the Western psyche, catalyzed by the transcendentalist musings of Emerson, Thoreau, and the scholarship of Müller (responsible for the propagation of Eastern religious texts) culminated in an ecclesiastical vacuum, readily occupied by the militant anti-theism of Nietzsche.
                     <br></br><br></br>
                     Yet, Nietzsche’s “God is Dead” declaration should not be misconstrued as an elegy to Divinity’s expiration. Rather, such an assertion should signal a social-structural evolution where ecclesiastical supremacy was usurped by the State, allowing for the State to gain a substantial role in guiding the values and moral precepts of society. Once a tithe attributed to the Church, now became the staff of the State.
+                    
+                    {paragraphBreak()}
+
+                    An incisive dissection of Nietzsche’s overarching claim necessitates a pivotal exploration of various concepts, not withstanding the übermensch, Nietzsche’s claims revolving on “the brutal honesty of nature”, and much more. The affirmation of humanity’s intrinsic variegation marks the gulf stretched between the mighty and the meek. However, this doesn’t necessarily indicate that one has a superior purpose over the other. Contrary to a blatant hierarchy, there appears to exist a more ecological intertwining where each is instrumental for a universal balance. An analogous to the divine symphony where every note, robust or delicate, harmonizes to create the comprehensive melody – thus contributing to the vast and multifaceted tapestry of existence.
+
                     <br></br><br></br>
                     An incisive dissection of Nietzsche’s overarching claim necessitates a pivotal exploration of various concepts, notwithstanding the übermensch, Nietzsche’s claims revolving on “the brutal honesty of nature”, and much more. The affirmation of humanity’s intrinsic variegation marks the gulf stretched between the mighty and the meek. However, this doesn’t necessarily indicate that one has a superior purpose over the other. Contrary to a blatant hierarchy, there appears to exist a more ecological intertwining where each is instrumental for a universal balance. Analogous to the divine symphony where every note, robust or delicate, harmonizes to create a comprehensive melody – thus contributing to the vast and multifaceted tapestry of existence.
+
                     <br></br><br></br>
                     I would like to delve into the firmament of objective morality – which, unlike a transient cultural patina, permeates our essence, and is indelibly inscribed into our spiritual constitution. It is not as easy to scrape off as paint on a wall, rather, it has mended itself to our epidermis, and brilliantly coats our soul.
                     <br></br><br></br>
                     Furthermore, while Nietzsche’s “transvaluation of values” promotes an individualistic approach, it mirrors a perversion of the Divine – a deity divided and dispersed into diverse human perspectives. This, however, does not remove God himself – it only replaces Him with billions of superficial “gods”. This also invokes the proposition – why should we accept Nietzsche’s values over anyone else’s, for instance? It is clear why we ascribe unwavering sanctity to the Creator – the cornerstone of unassailable and objective moral dictum.
+
+                    
+                    {paragraphBreak()}
+
+                    Center ballasting Nietzsche’s philosophy is his precept of “will to power”, an elevation of the preeminence of power within a God-devoid vacuum. However, its concept itself subconsciously validates the existence of a supreme entity (tied into the übermensch). The human aspiration for power, pristinely mirrors a yearning towards the divine omnipotence. Transposing this to our cultural manifestations, we find that our reverence for heroes and villains in art, the epic narratives of extraordinary beings, are but muted echoes, yearning approximations of the resplendent brilliance of a supreme entity. 
+                    <br></br><br></br>
+                    We mimic the Divine through art, yet the tacit acceptance of an underlying code of conduct guiding this pursuit for power infers the existence of higher principles, ones borrowing significantly from divine, moral conscience. Furthermore, rejecting God to elevate power seems paradoxically self-defeating, as in doing so, one merely replaces God with another form of supremacy, suggesting a perpetual human need for a superior entity, thereby indicating a concealed affirmation of divinity, hid behind the veil of faux-supremacy.
+                    <br></br><br></br>
+                    Indeed, Nietzsche's candid recognition of life's harsh realities resonates with undeniable poignancy. Yet, we remain beholden to grapple with the reality of God’s omnipotence, a grandeur too profound for our limited human faculties to fathom. The persistent attempts of adversaries to occlude His existence inadvertently lends credence to the Divine presence; it is indeed in the covert maneuvers to obscure that the veiled profundities of this existence are revealed to us. The key to deciphering the clandestine narrative of our world, lies intrinsically in a fervent faith in the Divine. The dynamic interplay between belief and denial, faith and skepticism, invariably brings to the foreground the omnipresence of God, creating a stark and constant reminder of His existence in the very fabric of our lived experiences. This revelation lies not in the retreat of faith, but in its relentless persistence, testament to the steadfast power of belief in the face of adversity.
+                    
+                    {paragraphBreak()}
+
+
                     <br></br><br></br>
                     Center ballasting Nietzsche’s philosophy is his precept of “will to power”, an elevation of the preeminence of power within a God-devoid vacuum. However, its concept itself subconsciously validates the existence of a supreme entity (tied into the übermensch). The human aspiration for power pristinely mirrors a yearning towards divine omnipotence. Transposing this to our cultural manifestations, we find that our reverence for heroes and villains in art, the epic narratives of extraordinary beings, are but muted echoes, yearning approximations of the resplendent brilliance of a supreme entity. 
                     <br></br><br></br>
@@ -146,13 +245,14 @@ const Writing = () => {
                     <br></br><br></br>
                     Indeed, Nietzsche's candid recognition of life's harsh realities resonates with undeniable poignancy. Yet, we remain beholden to grapple with the reality of God’s omnipotence, a grandeur too profound for our limited human faculties to fathom. The persistent attempts of adversaries to occlude His existence inadvertently lends credence to the Divine presence; it is indeed in the covert maneuvers to obscure that the veiled profundities of this existence are revealed to us. The key to deciphering the clandestine narrative of our world lies intrinsically in a fervent faith in the Divine. The dynamic interplay between belief and denial, faith and skepticism, invariably brings to the foreground the omnipresence of God, creating a stark and constant reminder of His existence in the very fabric of our lived experiences. This revelation lies not in the retreat of faith, but in its relentless persistence, a testament to the steadfast power of belief in the face of adversity.
                     <br></br><br></br>
+
                     And it is with such profundity that I conclude this assertion. Albeit a bit verbose, I believe this deconstruction allows for the reconstruction of our perceptions of the Divine, underscoring God’s presence within our realm, thereby reaffirming His divine immortality.
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - R. Santhanam </div>
                     </div>
                 </div>
 
-                <div className="writing_container" onClick={() => entry_on_click("7")}>
+                {/* <div className="writing_container" onClick={() => entry_on_click("7")}>
                     <div className="date_of_writing">
                         2023-09-04
                     </div>
@@ -176,9 +276,9 @@ const Writing = () => {
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - R. Santhanam </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="writing_container" onClick={() => entry_on_click("6")}>
+                {/* <div className="writing_container" onClick={() => entry_on_click("6")}>
                     <div className="date_of_writing">
                         2023年8月12日
                     </div>
@@ -204,10 +304,10 @@ const Writing = () => {
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - サンタナム理志 </div>
                     </div>
-                </div>
+                </div> */}
 
 
-                <div className="writing_container" onClick={() => entry_on_click("5")}>
+                {/* <div className="writing_container" onClick={() => entry_on_click("5")}>
                     <div className="date_of_writing">
                         2023-08-10
                     </div>
@@ -237,7 +337,7 @@ const Writing = () => {
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - R. Santhanam </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* <div className="writing_container" onClick={() => entry_on_click("4")}>
                     <div className="date_of_writing">
