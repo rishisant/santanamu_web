@@ -217,10 +217,6 @@ const Writing = () => {
                     {paragraphBreak()}
 
                     An incisive dissection of Nietzsche’s overarching claim necessitates a pivotal exploration of various concepts, not withstanding the übermensch, Nietzsche’s claims revolving on “the brutal honesty of nature”, and much more. The affirmation of humanity’s intrinsic variegation marks the gulf stretched between the mighty and the meek. However, this doesn’t necessarily indicate that one has a superior purpose over the other. Contrary to a blatant hierarchy, there appears to exist a more ecological intertwining where each is instrumental for a universal balance. An analogous to the divine symphony where every note, robust or delicate, harmonizes to create the comprehensive melody – thus contributing to the vast and multifaceted tapestry of existence.
-
-                    <br></br><br></br>
-                    An incisive dissection of Nietzsche’s overarching claim necessitates a pivotal exploration of various concepts, notwithstanding the übermensch, Nietzsche’s claims revolving on “the brutal honesty of nature”, and much more. The affirmation of humanity’s intrinsic variegation marks the gulf stretched between the mighty and the meek. However, this doesn’t necessarily indicate that one has a superior purpose over the other. Contrary to a blatant hierarchy, there appears to exist a more ecological intertwining where each is instrumental for a universal balance. Analogous to the divine symphony where every note, robust or delicate, harmonizes to create a comprehensive melody – thus contributing to the vast and multifaceted tapestry of existence.
-
                     <br></br><br></br>
                     I would like to delve into the firmament of objective morality – which, unlike a transient cultural patina, permeates our essence, and is indelibly inscribed into our spiritual constitution. It is not as easy to scrape off as paint on a wall, rather, it has mended itself to our epidermis, and brilliantly coats our soul.
                     <br></br><br></br>
