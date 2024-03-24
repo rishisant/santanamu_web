@@ -263,15 +263,6 @@ const Writing = () => {
                     
                     {paragraphBreak()}
 
-
-                    <br></br><br></br>
-                    Center ballasting Nietzsche’s philosophy is his precept of “will to power”, an elevation of the preeminence of power within a God-devoid vacuum. However, its concept itself subconsciously validates the existence of a supreme entity (tied into the übermensch). The human aspiration for power pristinely mirrors a yearning towards divine omnipotence. Transposing this to our cultural manifestations, we find that our reverence for heroes and villains in art, the epic narratives of extraordinary beings, are but muted echoes, yearning approximations of the resplendent brilliance of a supreme entity. 
-                    <br></br><br></br>
-                    We mimic the Divine through art, yet the tacit acceptance of an underlying code of conduct guiding this pursuit for power infers the existence of higher principles, ones borrowing significantly from divine, moral conscience. Furthermore, rejecting God to elevate power seems paradoxically self-defeating, as in doing so, one merely replaces God with another form of supremacy, suggesting a perpetual human need for a superior entity, thereby indicating a concealed affirmation of divinity, hid behind the veil of faux-supremacy.
-                    <br></br><br></br>
-                    Indeed, Nietzsche's candid recognition of life's harsh realities resonates with undeniable poignancy. Yet, we remain beholden to grapple with the reality of God’s omnipotence, a grandeur too profound for our limited human faculties to fathom. The persistent attempts of adversaries to occlude His existence inadvertently lends credence to the Divine presence; it is indeed in the covert maneuvers to obscure that the veiled profundities of this existence are revealed to us. The key to deciphering the clandestine narrative of our world lies intrinsically in a fervent faith in the Divine. The dynamic interplay between belief and denial, faith and skepticism, invariably brings to the foreground the omnipresence of God, creating a stark and constant reminder of His existence in the very fabric of our lived experiences. This revelation lies not in the retreat of faith, but in its relentless persistence, a testament to the steadfast power of belief in the face of adversity.
-                    <br></br><br></br>
-
                     And it is with such profundity that I conclude this assertion. Albeit a bit verbose, I believe this deconstruction allows for the reconstruction of our perceptions of the Divine, underscoring God’s presence within our realm, thereby reaffirming His divine immortality.
                     <br></br><br></br>
                     <div style={{ float: "right" }}> - R. Santhanam </div>
